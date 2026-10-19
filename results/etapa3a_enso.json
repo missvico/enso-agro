@@ -1,0 +1,389 @@
+{
+  "orden_arima": [
+    2,
+    0,
+    2
+  ],
+  "rmse": {
+    "1": {
+      "Persistencia": 0.2456,
+      "Climatología": 0.827,
+      "ARIMA": 0.198,
+      "MLP": 0.2835,
+      "CNN 1D": 0.3694,
+      "LSTM": 0.3969,
+      "Prophet": 0.8566,
+      "ARIMA + MLP": 0.2156
+    },
+    "2": {
+      "Persistencia": 0.4336,
+      "Climatología": 0.8237,
+      "ARIMA": 0.3641,
+      "MLP": 0.3794,
+      "CNN 1D": 0.4647,
+      "LSTM": 0.4941,
+      "Prophet": 0.8642,
+      "ARIMA + MLP": 0.3443
+    },
+    "3": {
+      "Persistencia": 0.5876,
+      "Climatología": 0.8231,
+      "ARIMA": 0.4907,
+      "MLP": 0.4694,
+      "CNN 1D": 0.5422,
+      "LSTM": 0.5737,
+      "Prophet": 0.8748,
+      "ARIMA + MLP": 0.4462
+    },
+    "4": {
+      "Persistencia": 0.7238,
+      "Climatología": 0.823,
+      "ARIMA": 0.5978,
+      "MLP": 0.5579,
+      "CNN 1D": 0.6123,
+      "LSTM": 0.6535,
+      "Prophet": 0.8851,
+      "ARIMA + MLP": 0.5371
+    },
+    "5": {
+      "Persistencia": 0.8439,
+      "Climatología": 0.8228,
+      "ARIMA": 0.6873,
+      "MLP": 0.6165,
+      "CNN 1D": 0.6733,
+      "LSTM": 0.7136,
+      "Prophet": 0.8944,
+      "ARIMA + MLP": 0.6057
+    },
+    "6": {
+      "Persistencia": 0.9459,
+      "Climatología": 0.8229,
+      "ARIMA": 0.758,
+      "MLP": 0.6676,
+      "CNN 1D": 0.7305,
+      "LSTM": 0.7663,
+      "Prophet": 0.9022,
+      "ARIMA + MLP": 0.668
+    },
+    "7": {
+      "Persistencia": 1.0279,
+      "Climatología": 0.8234,
+      "ARIMA": 0.8083,
+      "MLP": 0.7139,
+      "CNN 1D": 0.7825,
+      "LSTM": 0.8048,
+      "Prophet": 0.9085,
+      "ARIMA + MLP": 0.7179
+    },
+    "8": {
+      "Persistencia": 1.0912,
+      "Climatología": 0.8242,
+      "ARIMA": 0.8398,
+      "MLP": 0.7629,
+      "CNN 1D": 0.8226,
+      "LSTM": 0.8309,
+      "Prophet": 0.9136,
+      "ARIMA + MLP": 0.7608
+    },
+    "9": {
+      "Persistencia": 1.1409,
+      "Climatología": 0.8251,
+      "ARIMA": 0.8609,
+      "MLP": 0.779,
+      "CNN 1D": 0.8546,
+      "LSTM": 0.8466,
+      "Prophet": 0.9172,
+      "ARIMA + MLP": 0.7846
+    }
+  },
+  "acc": {
+    "1": {
+      "Persistencia": 0.9558,
+      "Climatología": NaN,
+      "ARIMA": 0.9711,
+      "MLP": 0.9393,
+      "CNN 1D": 0.9008,
+      "LSTM": 0.8816,
+      "Prophet": -0.0399,
+      "ARIMA + MLP": 0.966
+    },
+    "2": {
+      "Persistencia": 0.8617,
+      "Climatología": NaN,
+      "ARIMA": 0.8984,
+      "MLP": 0.8877,
+      "CNN 1D": 0.8274,
+      "LSTM": 0.8081,
+      "Prophet": -0.0924,
+      "ARIMA + MLP": 0.9091
+    },
+    "3": {
+      "Persistencia": 0.7462,
+      "Climatología": NaN,
+      "ARIMA": 0.8064,
+      "MLP": 0.8238,
+      "CNN 1D": 0.7535,
+      "LSTM": 0.7331,
+      "Prophet": -0.1481,
+      "ARIMA + MLP": 0.842
+    },
+    "4": {
+      "Persistencia": 0.6155,
+      "Climatología": NaN,
+      "ARIMA": 0.6953,
+      "MLP": 0.7431,
+      "CNN 1D": 0.675,
+      "LSTM": 0.6445,
+      "Prophet": -0.2012,
+      "ARIMA + MLP": 0.7599
+    },
+    "5": {
+      "Persistencia": 0.4779,
+      "Climatología": NaN,
+      "ARIMA": 0.5686,
+      "MLP": 0.681,
+      "CNN 1D": 0.5987,
+      "LSTM": 0.5676,
+      "Prophet": -0.2468,
+      "ARIMA + MLP": 0.6829
+    },
+    "6": {
+      "Persistencia": 0.3448,
+      "Climatología": NaN,
+      "ARIMA": 0.4346,
+      "MLP": 0.6133,
+      "CNN 1D": 0.5207,
+      "LSTM": 0.4888,
+      "Prophet": -0.2829,
+      "ARIMA + MLP": 0.5948
+    },
+    "7": {
+      "Persistencia": 0.2274,
+      "Climatología": NaN,
+      "ARIMA": 0.3081,
+      "MLP": 0.5453,
+      "CNN 1D": 0.4466,
+      "LSTM": 0.4265,
+      "Prophet": -0.3091,
+      "ARIMA + MLP": 0.5106
+    },
+    "8": {
+      "Persistencia": 0.1307,
+      "Climatología": NaN,
+      "ARIMA": 0.2024,
+      "MLP": 0.4631,
+      "CNN 1D": 0.3818,
+      "LSTM": 0.3741,
+      "Prophet": -0.3274,
+      "ARIMA + MLP": 0.4214
+    },
+    "9": {
+      "Persistencia": 0.0517,
+      "Climatología": NaN,
+      "ARIMA": 0.1114,
+      "MLP": 0.4231,
+      "CNN 1D": 0.3374,
+      "LSTM": 0.3412,
+      "Prophet": -0.3378,
+      "ARIMA + MLP": 0.3636
+    }
+  },
+  "dm": [
+    {
+      "modelo vs ARIMA": "Persistencia",
+      "h": 1,
+      "ΔRMSE": 0.04753,
+      "DM": 6.16837,
+      "p": 0.0
+    },
+    {
+      "modelo vs ARIMA": "Persistencia",
+      "h": 3,
+      "ΔRMSE": 0.09682,
+      "DM": 2.46651,
+      "p": 0.01418
+    },
+    {
+      "modelo vs ARIMA": "Persistencia",
+      "h": 6,
+      "ΔRMSE": 0.18792,
+      "DM": 2.13213,
+      "p": 0.03378
+    },
+    {
+      "modelo vs ARIMA": "Persistencia",
+      "h": 9,
+      "ΔRMSE": 0.28005,
+      "DM": 2.42822,
+      "p": 0.01575
+    },
+    {
+      "modelo vs ARIMA": "MLP",
+      "h": 1,
+      "ΔRMSE": 0.08546,
+      "DM": 7.31247,
+      "p": 0.0
+    },
+    {
+      "modelo vs ARIMA": "MLP",
+      "h": 3,
+      "ΔRMSE": -0.02138,
+      "DM": -0.75194,
+      "p": 0.45265
+    },
+    {
+      "modelo vs ARIMA": "MLP",
+      "h": 6,
+      "ΔRMSE": -0.0904,
+      "DM": -1.76029,
+      "p": 0.07934
+    },
+    {
+      "modelo vs ARIMA": "MLP",
+      "h": 9,
+      "ΔRMSE": -0.08187,
+      "DM": -1.66892,
+      "p": 0.09615
+    },
+    {
+      "modelo vs ARIMA": "CNN 1D",
+      "h": 1,
+      "ΔRMSE": 0.17135,
+      "DM": 9.21169,
+      "p": 0.0
+    },
+    {
+      "modelo vs ARIMA": "CNN 1D",
+      "h": 3,
+      "ΔRMSE": 0.05146,
+      "DM": 1.52762,
+      "p": 0.12761
+    },
+    {
+      "modelo vs ARIMA": "CNN 1D",
+      "h": 6,
+      "ΔRMSE": -0.02749,
+      "DM": -0.54065,
+      "p": 0.58914
+    },
+    {
+      "modelo vs ARIMA": "CNN 1D",
+      "h": 9,
+      "ΔRMSE": -0.00626,
+      "DM": -0.09738,
+      "p": 0.92249
+    },
+    {
+      "modelo vs ARIMA": "LSTM",
+      "h": 1,
+      "ΔRMSE": 0.19891,
+      "DM": 9.93258,
+      "p": 0.0
+    },
+    {
+      "modelo vs ARIMA": "LSTM",
+      "h": 3,
+      "ΔRMSE": 0.08299,
+      "DM": 2.42258,
+      "p": 0.01598
+    },
+    {
+      "modelo vs ARIMA": "LSTM",
+      "h": 6,
+      "ΔRMSE": 0.00826,
+      "DM": 0.15764,
+      "p": 0.87485
+    },
+    {
+      "modelo vs ARIMA": "LSTM",
+      "h": 9,
+      "ΔRMSE": -0.01433,
+      "DM": -0.23715,
+      "p": 0.8127
+    },
+    {
+      "modelo vs ARIMA": "Prophet",
+      "h": 1,
+      "ΔRMSE": 0.65856,
+      "DM": 10.55761,
+      "p": 0.0
+    },
+    {
+      "modelo vs ARIMA": "Prophet",
+      "h": 3,
+      "ΔRMSE": 0.38404,
+      "DM": 4.02812,
+      "p": 7e-05
+    },
+    {
+      "modelo vs ARIMA": "Prophet",
+      "h": 6,
+      "ΔRMSE": 0.14422,
+      "DM": 2.21513,
+      "p": 0.02748
+    },
+    {
+      "modelo vs ARIMA": "Prophet",
+      "h": 9,
+      "ΔRMSE": 0.05633,
+      "DM": 1.38567,
+      "p": 0.16685
+    },
+    {
+      "modelo vs ARIMA": "ARIMA + MLP",
+      "h": 1,
+      "ΔRMSE": 0.01754,
+      "DM": 3.01576,
+      "p": 0.00277
+    },
+    {
+      "modelo vs ARIMA": "ARIMA + MLP",
+      "h": 3,
+      "ΔRMSE": -0.04451,
+      "DM": -2.66241,
+      "p": 0.00816
+    },
+    {
+      "modelo vs ARIMA": "ARIMA + MLP",
+      "h": 6,
+      "ΔRMSE": -0.09002,
+      "DM": -2.94771,
+      "p": 0.00344
+    },
+    {
+      "modelo vs ARIMA": "ARIMA + MLP",
+      "h": 9,
+      "ΔRMSE": -0.07632,
+      "DM": -2.69444,
+      "p": 0.00744
+    }
+  ],
+  "mejor_red": "MLP",
+  "barrera": {
+    "ARIMA": {
+      "ene_h6": -0.008442402523902128,
+      "jul_h6": 0.6604670860463936,
+      "sep_h6": 0.7512074962460499
+    },
+    "MLP": {
+      "ene_h6": 0.29436051099219923,
+      "jul_h6": 0.8263923065977431,
+      "sep_h6": 0.7736970817660342
+    }
+  },
+  "jas_2026_pronostico": {
+    "ARIMA": 1.554,
+    "CNN 1D": 1.27,
+    "LSTM": 0.703,
+    "MLP": 1.715,
+    "ARIMA + MLP": 1.634
+  },
+  "djf_2026_27_pronostico": {
+    "ARIMA": 0.893,
+    "CNN 1D": 1.312,
+    "LSTM": 0.549,
+    "MLP": 2.156,
+    "ARIMA + MLP": 1.524
+  },
+  "jas_2026_observado": 2.16
+}

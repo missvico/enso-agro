@@ -1,0 +1,288 @@
+{
+  "granger": {
+    "tabla": [
+      {
+        "VAR": "bivariado",
+        "lags": 2,
+        "Niño3.4 → lluvia": 0.00012,
+        "lluvia → Niño3.4": 0.00754
+      },
+      {
+        "VAR": "bivariado",
+        "lags": 3,
+        "Niño3.4 → lluvia": 0.00031,
+        "lluvia → Niño3.4": 0.01737
+      },
+      {
+        "VAR": "bivariado",
+        "lags": 4,
+        "Niño3.4 → lluvia": 0.00072,
+        "lluvia → Niño3.4": 0.015
+      },
+      {
+        "VAR": "+ SAM",
+        "lags": 2,
+        "Niño3.4 → lluvia": 0.00017,
+        "lluvia → Niño3.4": 0.00757
+      },
+      {
+        "VAR": "+ SAM",
+        "lags": 3,
+        "Niño3.4 → lluvia": 0.00041,
+        "lluvia → Niño3.4": 0.0203
+      },
+      {
+        "VAR": "+ SAM",
+        "lags": 4,
+        "Niño3.4 → lluvia": 0.00092,
+        "lluvia → Niño3.4": 0.01733
+      },
+      {
+        "VAR": "+ IOD",
+        "lags": 2,
+        "Niño3.4 → lluvia": 0.00079,
+        "lluvia → Niño3.4": 0.00931
+      },
+      {
+        "VAR": "+ IOD",
+        "lags": 3,
+        "Niño3.4 → lluvia": 0.00174,
+        "lluvia → Niño3.4": 0.02541
+      },
+      {
+        "VAR": "+ IOD",
+        "lags": 4,
+        "Niño3.4 → lluvia": 0.004,
+        "lluvia → Niño3.4": 0.01702
+      },
+      {
+        "VAR": "+ SAM + IOD",
+        "lags": 2,
+        "Niño3.4 → lluvia": 0.00126,
+        "lluvia → Niño3.4": 0.00984
+      },
+      {
+        "VAR": "+ SAM + IOD",
+        "lags": 3,
+        "Niño3.4 → lluvia": 0.00237,
+        "lluvia → Niño3.4": 0.02954
+      },
+      {
+        "VAR": "+ SAM + IOD",
+        "lags": 4,
+        "Niño3.4 → lluvia": 0.00463,
+        "lluvia → Niño3.4": 0.01949
+      },
+      {
+        "VAR": "+ SOI",
+        "lags": 2,
+        "Niño3.4 → lluvia": 0.0331,
+        "lluvia → Niño3.4": 0.00473
+      },
+      {
+        "VAR": "+ SOI",
+        "lags": 3,
+        "Niño3.4 → lluvia": 0.0317,
+        "lluvia → Niño3.4": 0.01319
+      },
+      {
+        "VAR": "+ SOI",
+        "lags": 4,
+        "Niño3.4 → lluvia": 0.04346,
+        "lluvia → Niño3.4": 0.0126
+      },
+      {
+        "VAR": "+ WWV",
+        "lags": 2,
+        "Niño3.4 → lluvia": 0.00021,
+        "lluvia → Niño3.4": 0.04676
+      },
+      {
+        "VAR": "+ WWV",
+        "lags": 3,
+        "Niño3.4 → lluvia": 0.00029,
+        "lluvia → Niño3.4": 0.12971
+      },
+      {
+        "VAR": "+ WWV",
+        "lags": 4,
+        "Niño3.4 → lluvia": 0.0003,
+        "lluvia → Niño3.4": 0.09756
+      },
+      {
+        "VAR": "+ WWV + SAM + IOD",
+        "lags": 2,
+        "Niño3.4 → lluvia": 0.00125,
+        "lluvia → Niño3.4": 0.0552
+      },
+      {
+        "VAR": "+ WWV + SAM + IOD",
+        "lags": 3,
+        "Niño3.4 → lluvia": 0.00134,
+        "lluvia → Niño3.4": 0.16565
+      },
+      {
+        "VAR": "+ WWV + SAM + IOD",
+        "lags": 4,
+        "Niño3.4 → lluvia": 0.00106,
+        "lluvia → Niño3.4": 0.10395
+      }
+    ],
+    "p_inverso_clasico": 0.017719071546224666,
+    "p_inverso_HC3": 0.013004721815509206,
+    "p_inverso_permutacion": 0.014985014985014986,
+    "p_directo": 0.0003315061727032871
+  },
+  "h1": {
+    "soja": {
+      "n": 54.0,
+      "beta_%/°C": 9.102658943757207,
+      "IC95": [
+        3.53,
+        14.67
+      ],
+      "F": 10.770954676115112,
+      "p_F": 0.0018646841064378988,
+      "p_perm_1cola": 0.0011998800119988001,
+      "R2_restr": 0.019799661995168027,
+      "R2_compl": 0.19071645402987303,
+      "phi_y1": -0.009666425151063508,
+      "p_phi": 0.9415960268716961,
+      "p_Holm": 0.0018646841064378988
+    },
+    "maiz": {
+      "n": 54.0,
+      "beta_%/°C": 9.321847970265358,
+      "IC95": [
+        4.51,
+        14.13
+      ],
+      "F": 15.150515237742619,
+      "p_F": 0.00028923291860187176,
+      "p_perm_1cola": 0.00019998000199980003,
+      "R2_restr": 0.012041391477683017,
+      "R2_compl": 0.23831448850318016,
+      "phi_y1": 0.09725331941316968,
+      "p_phi": 0.46839374404534856,
+      "p_Holm": 0.0005784658372037435
+    },
+    "trigo": {
+      "n": 54.0,
+      "beta_%/°C": 0.15609034638791025,
+      "IC95": [
+        -4.93,
+        5.24
+      ],
+      "F": 0.003802390471634258,
+      "p_F": 0.9510718138743404,
+      "p_perm_1cola": 0.47955204479552044,
+      "R2_restr": 4.07697066319157e-05,
+      "R2_compl": 0.00011531778483564459,
+      "phi_y1": 0.009217364701406355,
+      "p_phi": 0.9503133588156375,
+      "p_Holm": NaN
+    }
+  },
+  "h1_sensibilidad": [
+    {
+      "variante": "base (pampeana, LOWESS, ONI JAS)",
+      "β soja": 9.1027,
+      "p soja": 0.0019,
+      "β maiz": 9.3218,
+      "p maiz": 0.0003
+    },
+    {
+      "variante": "ONI JJA",
+      "β soja": 10.8937,
+      "p soja": 0.0008,
+      "β maiz": 10.7961,
+      "p maiz": 0.0001
+    },
+    {
+      "variante": "ONI SON",
+      "β soja": 6.5041,
+      "p soja": 0.0019,
+      "β maiz": 6.7528,
+      "p maiz": 0.0003
+    },
+    {
+      "variante": "ONI DJF (dentro del ciclo)",
+      "β soja": 5.6966,
+      "p soja": 0.0028,
+      "β maiz": 5.413,
+      "p maiz": 0.0012
+    },
+    {
+      "variante": "tendencia MA9",
+      "β soja": 8.7027,
+      "p soja": 0.0029,
+      "β maiz": 9.4566,
+      "p maiz": 0.0001
+    },
+    {
+      "variante": "tendencia lineal",
+      "β soja": 9.7779,
+      "p soja": 0.0015,
+      "β maiz": 11.3066,
+      "p maiz": 0.0002
+    },
+    {
+      "variante": "rinde nacional",
+      "β soja": 7.4513,
+      "p soja": 0.0056,
+      "β maiz": 8.483,
+      "p maiz": 0.0005
+    },
+    {
+      "variante": "rinde s/ sembrada",
+      "β soja": 9.2038,
+      "p soja": 0.003,
+      "β maiz": 11.1333,
+      "p maiz": 0.0008
+    }
+  ],
+  "panel": {
+    "soja": {
+      "beta": 6.480351727212538,
+      "p_cluster": 0.00012087842101800459,
+      "p_naive": 2.7058460366679758e-62,
+      "n_deptos": 116,
+      "frac_pos": 0.9827586206896551
+    },
+    "maiz": {
+      "beta": 9.208759317659862,
+      "p_cluster": 7.375562475427406e-05,
+      "p_naive": 1.4128929440278847e-137,
+      "n_deptos": 128,
+      "frac_pos": 1.0
+    }
+  },
+  "mediacion": {
+    "soja": {
+      "n": 44.0,
+      "efecto_total": 7.335114220794102,
+      "p_total": 0.009013372433063126,
+      "efecto_directo": 2.7076379132290564,
+      "p_directo": 0.23119844324139238,
+      "indirecto": 4.627476307565048,
+      "IC95_ind": [
+        2.07,
+        8.03
+      ],
+      "prop_mediada": 0.6308662916859222
+    },
+    "maiz": {
+      "n": 44.0,
+      "efecto_total": 8.180630196941815,
+      "p_total": 0.00029246254832420636,
+      "efecto_directo": 4.088804926795212,
+      "p_directo": 0.055113017011521784,
+      "indirecto": 4.091825270146603,
+      "IC95_ind": [
+        1.23,
+        7.77
+      ],
+      "prop_mediada": 0.5001846033422046
+    }
+  }
+}

@@ -1,0 +1,484 @@
+{
+  "tabla": [
+    {
+      "cultivo": "soja",
+      "modelo": "M0 Naive",
+      "RMSE kg/ha": 595.168,
+      "MAE kg/ha": 445.669,
+      "MAPE %": 17.737,
+      "skill vs ARIMA %": -75.022,
+      "RMSE años Niña": 461.493
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "M1 Tendencia lineal",
+      "RMSE kg/ha": 444.017,
+      "MAE kg/ha": 315.279,
+      "MAPE %": 13.825,
+      "skill vs ARIMA %": 2.588,
+      "RMSE años Niña": 595.833
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "M2 ARIMA",
+      "RMSE kg/ha": 449.877,
+      "MAE kg/ha": 319.926,
+      "MAPE %": 13.993,
+      "skill vs ARIMA %": 0.0,
+      "RMSE años Niña": 595.726
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "M3 ARIMAX (ONI jul–sep)",
+      "RMSE kg/ha": 409.715,
+      "MAE kg/ha": 310.8,
+      "MAPE %": 13.267,
+      "skill vs ARIMA %": 17.058,
+      "RMSE años Niña": 540.087
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "M4 ARIMAX oráculo (ONI dic–feb)",
+      "RMSE kg/ha": 406.013,
+      "MAE kg/ha": 301.598,
+      "MAPE %": 13.038,
+      "skill vs ARIMA %": 18.55,
+      "RMSE años Niña": 580.095
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "M5 Prophet + ONI",
+      "RMSE kg/ha": 418.953,
+      "MAE kg/ha": 331.337,
+      "MAPE %": 14.038,
+      "skill vs ARIMA %": 13.275,
+      "RMSE años Niña": 543.513
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "Híbrido Ridge",
+      "RMSE kg/ha": 452.758,
+      "MAE kg/ha": 335.666,
+      "MAPE %": 14.602,
+      "skill vs ARIMA %": -1.285,
+      "RMSE años Niña": 589.743
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "Híbrido RF",
+      "RMSE kg/ha": 403.659,
+      "MAE kg/ha": 321.972,
+      "MAPE %": 13.508,
+      "skill vs ARIMA %": 19.492,
+      "RMSE años Niña": 424.589
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "Híbrido GBM",
+      "RMSE kg/ha": 420.489,
+      "MAE kg/ha": 337.465,
+      "MAPE %": 14.314,
+      "skill vs ARIMA %": 12.638,
+      "RMSE años Niña": 448.559
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "Híbrido MLP",
+      "RMSE kg/ha": 444.273,
+      "MAE kg/ha": 322.776,
+      "MAPE %": 14.146,
+      "skill vs ARIMA %": 2.476,
+      "RMSE años Niña": 576.537
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M0 Naive",
+      "RMSE kg/ha": 1206.355,
+      "MAE kg/ha": 956.62,
+      "MAPE %": 14.041,
+      "skill vs ARIMA %": -15.259,
+      "RMSE años Niña": 1176.705
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M1 Tendencia lineal",
+      "RMSE kg/ha": 1408.028,
+      "MAE kg/ha": 1141.877,
+      "MAPE %": 17.31,
+      "skill vs ARIMA %": -57.017,
+      "RMSE años Niña": 1814.151
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M2 ARIMA",
+      "RMSE kg/ha": 1123.667,
+      "MAE kg/ha": 913.984,
+      "MAPE %": 14.011,
+      "skill vs ARIMA %": 0.0,
+      "RMSE años Niña": 1476.303
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M3 ARIMAX (ONI jul–sep)",
+      "RMSE kg/ha": 951.616,
+      "MAE kg/ha": 768.968,
+      "MAPE %": 11.905,
+      "skill vs ARIMA %": 28.279,
+      "RMSE años Niña": 1235.343
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M4 ARIMAX oráculo (ONI dic–feb)",
+      "RMSE kg/ha": 953.818,
+      "MAE kg/ha": 759.213,
+      "MAPE %": 11.858,
+      "skill vs ARIMA %": 27.946,
+      "RMSE años Niña": 1339.96
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M5 Prophet + ONI",
+      "RMSE kg/ha": 904.805,
+      "MAE kg/ha": 685.836,
+      "MAPE %": 10.698,
+      "skill vs ARIMA %": 35.161,
+      "RMSE años Niña": 1216.052
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "Híbrido Ridge",
+      "RMSE kg/ha": 1027.895,
+      "MAE kg/ha": 841.73,
+      "MAPE %": 12.808,
+      "skill vs ARIMA %": 16.32,
+      "RMSE años Niña": 1210.82
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "Híbrido RF",
+      "RMSE kg/ha": 884.909,
+      "MAE kg/ha": 765.808,
+      "MAPE %": 11.635,
+      "skill vs ARIMA %": 37.981,
+      "RMSE años Niña": 879.662
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "Híbrido GBM",
+      "RMSE kg/ha": 840.735,
+      "MAE kg/ha": 697.118,
+      "MAPE %": 10.714,
+      "skill vs ARIMA %": 44.019,
+      "RMSE años Niña": 829.087
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "Híbrido MLP",
+      "RMSE kg/ha": 1052.647,
+      "MAE kg/ha": 875.876,
+      "MAPE %": 13.355,
+      "skill vs ARIMA %": 12.241,
+      "RMSE años Niña": 1288.791
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M0 Naive",
+      "RMSE kg/ha": 487.132,
+      "MAE kg/ha": 370.091,
+      "MAPE %": 13.493,
+      "skill vs ARIMA %": -8.847,
+      "RMSE años Niña": 630.85
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M1 Tendencia lineal",
+      "RMSE kg/ha": 429.054,
+      "MAE kg/ha": 319.482,
+      "MAPE %": 11.627,
+      "skill vs ARIMA %": 15.56,
+      "RMSE años Niña": 661.983
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M2 ARIMA",
+      "RMSE kg/ha": 466.916,
+      "MAE kg/ha": 339.514,
+      "MAPE %": 12.337,
+      "skill vs ARIMA %": 0.0,
+      "RMSE años Niña": 753.777
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M3 ARIMAX (ONI jul–sep)",
+      "RMSE kg/ha": 488.945,
+      "MAE kg/ha": 356.892,
+      "MAPE %": 12.845,
+      "skill vs ARIMA %": -9.659,
+      "RMSE años Niña": 810.447
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M4 ARIMAX oráculo (ONI dic–feb)",
+      "RMSE kg/ha": 484.005,
+      "MAE kg/ha": 355.928,
+      "MAPE %": 12.829,
+      "skill vs ARIMA %": -7.454,
+      "RMSE años Niña": 796.648
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M5 Prophet + ONI",
+      "RMSE kg/ha": 430.637,
+      "MAE kg/ha": 318.112,
+      "MAPE %": 11.6,
+      "skill vs ARIMA %": 14.936,
+      "RMSE años Niña": 692.562
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "Híbrido Ridge",
+      "RMSE kg/ha": 470.706,
+      "MAE kg/ha": 336.795,
+      "MAPE %": 12.282,
+      "skill vs ARIMA %": -1.63,
+      "RMSE años Niña": 751.011
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "Híbrido RF",
+      "RMSE kg/ha": 494.549,
+      "MAE kg/ha": 363.734,
+      "MAPE %": 13.263,
+      "skill vs ARIMA %": -12.186,
+      "RMSE años Niña": 713.842
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "Híbrido GBM",
+      "RMSE kg/ha": 501.099,
+      "MAE kg/ha": 374.254,
+      "MAPE %": 13.687,
+      "skill vs ARIMA %": -15.178,
+      "RMSE años Niña": 721.001
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "Híbrido MLP",
+      "RMSE kg/ha": 470.039,
+      "MAE kg/ha": 339.771,
+      "MAPE %": 12.37,
+      "skill vs ARIMA %": -1.342,
+      "RMSE años Niña": 752.673
+    }
+  ],
+  "dm": [
+    {
+      "cultivo": "soja",
+      "modelo vs M2 ARIMA": "M0 Naive",
+      "DM": 1.6407,
+      "p (1 cola)": 0.9442
+    },
+    {
+      "cultivo": "soja",
+      "modelo vs M2 ARIMA": "M1 Tendencia lineal",
+      "DM": -0.9882,
+      "p (1 cola)": 0.1656
+    },
+    {
+      "cultivo": "soja",
+      "modelo vs M2 ARIMA": "M3 ARIMAX (ONI jul–sep)",
+      "DM": -1.3299,
+      "p (1 cola)": 0.097
+    },
+    {
+      "cultivo": "soja",
+      "modelo vs M2 ARIMA": "M4 ARIMAX oráculo (ONI dic–feb)",
+      "DM": -1.6386,
+      "p (1 cola)": 0.056
+    },
+    {
+      "cultivo": "soja",
+      "modelo vs M2 ARIMA": "M5 Prophet + ONI",
+      "DM": -0.8496,
+      "p (1 cola)": 0.2013
+    },
+    {
+      "cultivo": "soja",
+      "modelo vs M2 ARIMA": "Híbrido Ridge",
+      "DM": 0.2714,
+      "p (1 cola)": 0.606
+    },
+    {
+      "cultivo": "soja",
+      "modelo vs M2 ARIMA": "Híbrido RF",
+      "DM": -0.8977,
+      "p (1 cola)": 0.1884
+    },
+    {
+      "cultivo": "soja",
+      "modelo vs M2 ARIMA": "Híbrido GBM",
+      "DM": -0.578,
+      "p (1 cola)": 0.2839
+    },
+    {
+      "cultivo": "soja",
+      "modelo vs M2 ARIMA": "Híbrido MLP",
+      "DM": -0.5082,
+      "p (1 cola)": 0.3076
+    },
+    {
+      "cultivo": "maiz",
+      "modelo vs M2 ARIMA": "M0 Naive",
+      "DM": 0.5724,
+      "p (1 cola)": 0.7143
+    },
+    {
+      "cultivo": "maiz",
+      "modelo vs M2 ARIMA": "M1 Tendencia lineal",
+      "DM": 2.1316,
+      "p (1 cola)": 0.9792
+    },
+    {
+      "cultivo": "maiz",
+      "modelo vs M2 ARIMA": "M3 ARIMAX (ONI jul–sep)",
+      "DM": -1.7741,
+      "p (1 cola)": 0.0433
+    },
+    {
+      "cultivo": "maiz",
+      "modelo vs M2 ARIMA": "M4 ARIMAX oráculo (ONI dic–feb)",
+      "DM": -2.2757,
+      "p (1 cola)": 0.0152
+    },
+    {
+      "cultivo": "maiz",
+      "modelo vs M2 ARIMA": "M5 Prophet + ONI",
+      "DM": -1.9925,
+      "p (1 cola)": 0.0279
+    },
+    {
+      "cultivo": "maiz",
+      "modelo vs M2 ARIMA": "Híbrido Ridge",
+      "DM": -1.6191,
+      "p (1 cola)": 0.0581
+    },
+    {
+      "cultivo": "maiz",
+      "modelo vs M2 ARIMA": "Híbrido RF",
+      "DM": -1.7342,
+      "p (1 cola)": 0.0468
+    },
+    {
+      "cultivo": "maiz",
+      "modelo vs M2 ARIMA": "Híbrido GBM",
+      "DM": -1.6733,
+      "p (1 cola)": 0.0525
+    },
+    {
+      "cultivo": "maiz",
+      "modelo vs M2 ARIMA": "Híbrido MLP",
+      "DM": -1.7293,
+      "p (1 cola)": 0.0472
+    },
+    {
+      "cultivo": "trigo",
+      "modelo vs M2 ARIMA": "M0 Naive",
+      "DM": 0.6581,
+      "p (1 cola)": 0.7422
+    },
+    {
+      "cultivo": "trigo",
+      "modelo vs M2 ARIMA": "M1 Tendencia lineal",
+      "DM": -0.8526,
+      "p (1 cola)": 0.2004
+    },
+    {
+      "cultivo": "trigo",
+      "modelo vs M2 ARIMA": "M3 ARIMAX (ONI jul–sep)",
+      "DM": 0.7338,
+      "p (1 cola)": 0.7655
+    },
+    {
+      "cultivo": "trigo",
+      "modelo vs M2 ARIMA": "M4 ARIMAX oráculo (ONI dic–feb)",
+      "DM": 0.7425,
+      "p (1 cola)": 0.7681
+    },
+    {
+      "cultivo": "trigo",
+      "modelo vs M2 ARIMA": "M5 Prophet + ONI",
+      "DM": -0.7038,
+      "p (1 cola)": 0.2436
+    },
+    {
+      "cultivo": "trigo",
+      "modelo vs M2 ARIMA": "Híbrido Ridge",
+      "DM": 0.6758,
+      "p (1 cola)": 0.7477
+    },
+    {
+      "cultivo": "trigo",
+      "modelo vs M2 ARIMA": "Híbrido RF",
+      "DM": 1.2098,
+      "p (1 cola)": 0.8819
+    },
+    {
+      "cultivo": "trigo",
+      "modelo vs M2 ARIMA": "Híbrido GBM",
+      "DM": 1.3144,
+      "p (1 cola)": 0.9005
+    },
+    {
+      "cultivo": "trigo",
+      "modelo vs M2 ARIMA": "Híbrido MLP",
+      "DM": 0.8715,
+      "p (1 cola)": 0.8047
+    }
+  ],
+  "pronostico_futuro": [
+    {
+      "cultivo": "soja",
+      "campaña": "2025/26",
+      "ONI jul–sep": -0.26,
+      "ARIMA kg/ha": 3119.03,
+      "ARIMAX kg/ha": 3015.64,
+      "IC80": "2470–3682",
+      "IC95": "2222–4092",
+      "β ONI (%/°C)": 10.05,
+      "efecto ENSO %": -3.31
+    },
+    {
+      "cultivo": "soja",
+      "campaña": "2026/27",
+      "ONI jul–sep": 2.16,
+      "ARIMA kg/ha": 3153.4,
+      "ARIMAX kg/ha": 3887.2,
+      "IC80": "3184–4746",
+      "IC95": "2865–5275",
+      "β ONI (%/°C)": 10.05,
+      "efecto ENSO %": 23.27
+    },
+    {
+      "cultivo": "maiz",
+      "campaña": "2025/26",
+      "ONI jul–sep": -0.26,
+      "ARIMA kg/ha": 7503.23,
+      "ARIMAX kg/ha": 7168.52,
+      "IC80": "6017–8541",
+      "IC95": "5484–9371",
+      "β ONI (%/°C)": 9.05,
+      "efecto ENSO %": -4.46
+    },
+    {
+      "cultivo": "maiz",
+      "campaña": "2026/27",
+      "ONI jul–sep": 2.16,
+      "ARIMA kg/ha": 7654.11,
+      "ARIMAX kg/ha": 9095.53,
+      "IC80": "7562–10940",
+      "IC95": "6858–12063",
+      "β ONI (%/°C)": 9.05,
+      "efecto ENSO %": 18.83
+    }
+  ]
+}
