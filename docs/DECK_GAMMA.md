@@ -1,6 +1,6 @@
 # El Niño anticipa el rendimiento agrícola pampeano antes de la siembra
 TP Data Mining de Series Temporales · MEDyDC, FCEyN-UBA
-Vico & Facundo San Martino · Noviembre 2026
+Victoria, Guillermo, Ramiro y Facundo San Martino · Noviembre 2026
 
 *[Insertar gráfico: figures/deck/01_oni.png] · layout: portada minimalista con gráfico de fondo*
 
@@ -78,7 +78,7 @@ VAR mensual (`1981–2025`, `n = 540`) y función de correlación cruzada prebla
 - Al controlar por el calor subsuperficial (`WWV → Niño 3.4`, `p = 3,5e-18`), **el inverso desaparece (`p = 0,130`)**.
 - Preblanqueada por AR(p), la CCF se concentra en **lag 0 (`r = 0,154`)**: teleconexión intra-mensual.
 
-*[Insertar gráfico: figures/deck/07a_granger_condicional.png] · layout: texto arriba + dos gráficos abajo*
+*[Insertar gráficos: figures/deck/07a_granger_condicional.png + figures/deck/07_ccf_preblanqueada.png] · layout: texto arriba + dos gráficos abajo*
 
 ---
 
@@ -128,7 +128,7 @@ Skill a 6 meses según mes de origen y seguimiento en vivo del Niño 2026/27
 - **Verificación real `JAS 2026`:** observado `+2,16 °C` vs pronosticado desde junio (`MLP +1,72`, `ARIMA+MLP +1,63`).
 - Para **`DJF 2026/27`**, el ensamble proyecta `+1,52 °C` (`MLP +2,16 °C`): Niño fuerte en período crítico.
 
-*[Insertar gráfico: figures/deck/13_barrera_predictibilidad.png] · layout: dos gráficos en paralelo + texto abajo*
+*[Insertar gráficos: figures/deck/13_barrera_predictibilidad.png + figures/deck/14_pronostico_2026.png] · layout: dos gráficos en paralelo + texto abajo*
 
 ---
 
@@ -147,7 +147,7 @@ Origen móvil causal (`1995–2024`, `n = 30`) sobre `log(rinde)` frente a `ARIM
 # Ablación de baselines y puente 3a → 3b confirman que la señal viene del ENSO
 Separando tendencia por tramos (`Prophet sin ONI`), variables extra (`solo ONI`) y `Niño 3.4` pronosticado
 
-- **`Prophet sin ONI`:** en trigo ya mejora `+19,5 %` (`419,0` vs `464,3`); en maíz aporta `+14,1 %` por quiebre 2015, y sumar ONI baja otros `136,6 kg/ha` (`p_kg = 0,043`).
+- **`Prophet sin ONI`:** en trigo ya mejora `+19,5 %` (`419,0` vs `466,9`); en maíz aporta `+14,1 %` por quiebre 2015, y sumar ONI baja otros `136,6 kg/ha` (`p_kg = 0,043`).
 - **`RF/GBM (solo ONI)`:** pierden ventaja en soja (`454,2`/`478,8`); parte del éxito híbrido venía de `SOI`, `IOD` y tendencia del ONI.
 - **Trigo causal (`ONI AMJ`):** confirma nulidad total (`477,7 kg/ha`, `-4,7 %` skill, `p_DM = 0,850`).
 - **Puente 3a → 3b (`r = 0,909`):** `ARIMAX` con `DJF` pronosticado desde septiembre logra `+17,6 %` en soja (`p = 0,046`) y `+19,2 %` en maíz (`p = 0,035`).
@@ -192,4 +192,4 @@ Síntesis de evidencia, limitaciones metodológicas honestas y próximos pasos
 - **Límites asumidos:** muestra efectiva de `55` campañas; redes de Etapa 3a congeladas en `1999` (y `early_stopping` aleatorio en `MLPRegressor`); `IOD` faltante en 2026 para híbridos.
 - **Cierre:** Pipeline modular reproducible (`00`–`05`), verificación futura inmediata con publicación MAGyP `2026/27`.
 
-*[Insertar gráfico: figures/deck/14_pronostico_2026.png] · layout: texto izquierda + gráfico derecha*
+*[Sin gráfico · layout: 3 bloques/tarjetas de cierre (Veredicto, Límites, Próximos pasos)]*
