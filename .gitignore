@@ -3,3 +3,7 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 *.log
+AUDIT_V01.md
+Thumbs.db
+.vscode/
+.idea/

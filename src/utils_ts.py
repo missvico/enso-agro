@@ -6,7 +6,6 @@ import warnings
 from pathlib import Path
 
 import matplotlib as mpl
-import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from statsmodels.nonparametric.smoothers_lowess import lowess
@@ -108,9 +107,6 @@ def tendencia(y: pd.Series, metodo: str = "lowess", frac: float = 0.35, ventana:
     if metodo == "lineal":
         b = np.polyfit(t, y.to_numpy(), 1)
         return pd.Series(np.polyval(b, t), index=y.index)
-    if metodo == "cuadratica":
-        b = np.polyfit(t, y.to_numpy(), 2)
-        return pd.Series(np.polyval(b, t), index=y.index)
     if metodo == "lowess":
         return pd.Series(lowess(y.to_numpy(), t, frac=frac, it=2, return_sorted=False), index=y.index)
     if metodo == "ma":
@@ -165,7 +161,7 @@ def dm_test(e1, e2, h: int = 1, alternativa: str = "two-sided") -> dict:
     n = len(d)
     dbar = d.mean()
     gam = [np.sum((d[k:] - dbar) * (d[:n - k] - dbar)) / n for k in range(h)]
-    var = (gam[0] + 2 * sum(gam[1:])) / n
+    var = (gam[0] + 2 * sum((1 - k / h) * gam[k] for k in range(1, h))) / n
     dm = dbar / np.sqrt(var) if var > 0 else np.nan
     hln = np.sqrt((n + 1 - 2 * h + h * (h - 1) / n) / n)
     stat = dm * hln

@@ -1,0 +1,1051 @@
+{
+  "bloque1_baselines": [
+    {
+      "cultivo": "soja",
+      "modelo": "M0b RW + drift",
+      "RMSE kg/ha": 604.779,
+      "MAE kg/ha": 456.67,
+      "MAPE %": 18.251,
+      "skill vs ARIMA %": -80.72,
+      "RMSE años Niña": 487.064
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "M2 ARIMA",
+      "RMSE kg/ha": 449.908,
+      "MAE kg/ha": 320.055,
+      "MAPE %": 13.998,
+      "skill vs ARIMA %": -0.014,
+      "RMSE años Niña": 595.696
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "M5_sin_oni Prophet",
+      "RMSE kg/ha": 447.17,
+      "MAE kg/ha": 335.963,
+      "MAPE %": 14.297,
+      "skill vs ARIMA %": 1.2,
+      "RMSE años Niña": 576.409
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "M5 Prophet + ONI",
+      "RMSE kg/ha": 418.953,
+      "MAE kg/ha": 331.337,
+      "MAPE %": 14.038,
+      "skill vs ARIMA %": 13.275,
+      "RMSE años Niña": 543.513
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "M3 ARIMAX (ONI jul–sep)",
+      "RMSE kg/ha": 409.715,
+      "MAE kg/ha": 310.8,
+      "MAPE %": 13.267,
+      "skill vs ARIMA %": 17.058,
+      "RMSE años Niña": 540.087
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "Híbrido RF (solo ONI)",
+      "RMSE kg/ha": 454.247,
+      "MAE kg/ha": 334.134,
+      "MAPE %": 14.47,
+      "skill vs ARIMA %": -1.952,
+      "RMSE años Niña": 541.825
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "Híbrido RF",
+      "RMSE kg/ha": 403.659,
+      "MAE kg/ha": 321.972,
+      "MAPE %": 13.508,
+      "skill vs ARIMA %": 19.492,
+      "RMSE años Niña": 424.589
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "Híbrido GBM (solo ONI)",
+      "RMSE kg/ha": 478.794,
+      "MAE kg/ha": 347.61,
+      "MAPE %": 15.103,
+      "skill vs ARIMA %": -13.269,
+      "RMSE años Niña": 576.34
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "Híbrido GBM",
+      "RMSE kg/ha": 420.489,
+      "MAE kg/ha": 337.465,
+      "MAPE %": 14.314,
+      "skill vs ARIMA %": 12.638,
+      "RMSE años Niña": 448.559
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M0b RW + drift",
+      "RMSE kg/ha": 1236.519,
+      "MAE kg/ha": 1001.207,
+      "MAPE %": 14.84,
+      "skill vs ARIMA %": -21.095,
+      "RMSE años Niña": 1349.9
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M2 ARIMA",
+      "RMSE kg/ha": 1123.604,
+      "MAE kg/ha": 914.002,
+      "MAPE %": 14.012,
+      "skill vs ARIMA %": 0.011,
+      "RMSE años Niña": 1476.282
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M5_sin_oni Prophet",
+      "RMSE kg/ha": 1041.427,
+      "MAE kg/ha": 756.843,
+      "MAPE %": 11.903,
+      "skill vs ARIMA %": 14.102,
+      "RMSE años Niña": 1500.517
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M5 Prophet + ONI",
+      "RMSE kg/ha": 904.805,
+      "MAE kg/ha": 685.836,
+      "MAPE %": 10.698,
+      "skill vs ARIMA %": 35.161,
+      "RMSE años Niña": 1216.052
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M3 ARIMAX (ONI jul–sep)",
+      "RMSE kg/ha": 951.616,
+      "MAE kg/ha": 768.968,
+      "MAPE %": 11.905,
+      "skill vs ARIMA %": 28.279,
+      "RMSE años Niña": 1235.343
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "Híbrido RF (solo ONI)",
+      "RMSE kg/ha": 995.855,
+      "MAE kg/ha": 802.289,
+      "MAPE %": 12.243,
+      "skill vs ARIMA %": 21.455,
+      "RMSE años Niña": 1112.558
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "Híbrido RF",
+      "RMSE kg/ha": 884.909,
+      "MAE kg/ha": 765.808,
+      "MAPE %": 11.635,
+      "skill vs ARIMA %": 37.981,
+      "RMSE años Niña": 879.662
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "Híbrido GBM (solo ONI)",
+      "RMSE kg/ha": 1032.576,
+      "MAE kg/ha": 830.957,
+      "MAPE %": 12.709,
+      "skill vs ARIMA %": 15.556,
+      "RMSE años Niña": 1129.679
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "Híbrido GBM",
+      "RMSE kg/ha": 840.735,
+      "MAE kg/ha": 697.118,
+      "MAPE %": 10.714,
+      "skill vs ARIMA %": 44.019,
+      "RMSE años Niña": 829.087
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M0b RW + drift",
+      "RMSE kg/ha": 497.359,
+      "MAE kg/ha": 374.282,
+      "MAPE %": 13.753,
+      "skill vs ARIMA %": -13.465,
+      "RMSE años Niña": 652.043
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M2 ARIMA",
+      "RMSE kg/ha": 464.311,
+      "MAE kg/ha": 338.074,
+      "MAPE %": 12.296,
+      "skill vs ARIMA %": 1.113,
+      "RMSE años Niña": 746.905
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M5_sin_oni Prophet",
+      "RMSE kg/ha": 419.044,
+      "MAE kg/ha": 307.634,
+      "MAPE %": 11.249,
+      "skill vs ARIMA %": 19.455,
+      "RMSE años Niña": 660.826
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M5 Prophet + ONI",
+      "RMSE kg/ha": 430.637,
+      "MAE kg/ha": 318.112,
+      "MAPE %": 11.6,
+      "skill vs ARIMA %": 14.936,
+      "RMSE años Niña": 692.562
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M3 ARIMAX (ONI jul–sep)",
+      "RMSE kg/ha": 488.945,
+      "MAE kg/ha": 356.892,
+      "MAPE %": 12.845,
+      "skill vs ARIMA %": -9.659,
+      "RMSE años Niña": 810.447
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "Híbrido RF (solo ONI)",
+      "RMSE kg/ha": 495.905,
+      "MAE kg/ha": 365.743,
+      "MAPE %": 13.328,
+      "skill vs ARIMA %": -12.803,
+      "RMSE años Niña": 771.706
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "Híbrido RF",
+      "RMSE kg/ha": 494.549,
+      "MAE kg/ha": 363.734,
+      "MAPE %": 13.263,
+      "skill vs ARIMA %": -12.186,
+      "RMSE años Niña": 713.842
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "Híbrido GBM (solo ONI)",
+      "RMSE kg/ha": 510.661,
+      "MAE kg/ha": 385.847,
+      "MAPE %": 14.12,
+      "skill vs ARIMA %": -19.616,
+      "RMSE años Niña": 758.088
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "Híbrido GBM",
+      "RMSE kg/ha": 501.099,
+      "MAE kg/ha": 374.254,
+      "MAPE %": 13.687,
+      "skill vs ARIMA %": -15.178,
+      "RMSE años Niña": 721.001
+    }
+  ],
+  "bloque1_prophet_descomposicion": [
+    {
+      "cultivo": "soja",
+      "RMSE_sin_ONI": 447.17,
+      "RMSE_con_ONI": 418.95,
+      "delta_RMSE": -28.22,
+      "p_DM_con_vs_sin_log": 0.2058,
+      "p_DM_con_vs_sin_kg": 0.1705
+    },
+    {
+      "cultivo": "maiz",
+      "RMSE_sin_ONI": 1041.43,
+      "RMSE_con_ONI": 904.81,
+      "delta_RMSE": -136.62,
+      "p_DM_con_vs_sin_log": 0.0538,
+      "p_DM_con_vs_sin_kg": 0.0429
+    },
+    {
+      "cultivo": "trigo",
+      "RMSE_sin_ONI": 419.04,
+      "RMSE_con_ONI": 430.64,
+      "delta_RMSE": 11.59,
+      "p_DM_con_vs_sin_log": 0.8291,
+      "p_DM_con_vs_sin_kg": 0.8727
+    }
+  ],
+  "bloque2_asimetria_h1": {
+    "soja": {
+      "n": 54,
+      "beta_pos_%/°C": 6.325587581162617,
+      "p_pos_HC3": 0.09159315752362461,
+      "IC95_pos_HC3": [
+        -1.0232767970032297,
+        13.674451959328465
+      ],
+      "IC95_pos_boot": [
+        -1.1340420723897353,
+        15.018877047383453
+      ],
+      "beta_neg_%/°C": 12.829553878287777,
+      "p_neg_HC3": 0.015531595302429136,
+      "IC95_neg_HC3": [
+        2.4377512437693447,
+        23.22135651280621
+      ],
+      "IC95_neg_boot": [
+        3.244749167670094,
+        23.698428623446336
+      ],
+      "diff_neg_menos_pos": 6.50396629712516,
+      "wald_stat_HC3": 0.7653890323657037,
+      "p_wald_HC3": 0.381647282743968,
+      "p_boot_2colas": 0.398
+    },
+    "maiz": {
+      "n": 54,
+      "beta_pos_%/°C": 5.557768822416807,
+      "p_pos_HC3": 0.08493610076645218,
+      "IC95_pos_HC3": [
+        -0.7653245396399662,
+        11.88086218447358
+      ],
+      "IC95_pos_boot": [
+        0.116516458992129,
+        13.321862487979729
+      ],
+      "beta_neg_%/°C": 14.612039926627354,
+      "p_neg_HC3": 0.018070607936953923,
+      "IC95_neg_HC3": [
+        2.4982349806185287,
+        26.72584487263618
+      ],
+      "IC95_neg_boot": [
+        3.1059978887389077,
+        26.537601631816663
+      ],
+      "diff_neg_menos_pos": 9.054271104210546,
+      "wald_stat_HC3": 1.294096842391182,
+      "p_wald_HC3": 0.255294325292262,
+      "p_boot_2colas": 0.261
+    },
+    "trigo": {
+      "n": 54,
+      "beta_pos_%/°C": 5.985103759876933,
+      "p_pos_HC3": 0.08828751528856102,
+      "IC95_pos_HC3": [
+        -0.8970202710850579,
+        12.867227790838925
+      ],
+      "IC95_pos_boot": [
+        -0.33587090930532354,
+        13.054877382561152
+      ],
+      "beta_neg_%/°C": -7.631872131637546,
+      "p_neg_HC3": 0.2539152648684695,
+      "IC95_neg_HC3": [
+        -20.742847565425144,
+        5.479103302150052
+      ],
+      "IC95_neg_boot": [
+        -19.076412742394382,
+        5.240720107120321
+      ],
+      "diff_neg_menos_pos": -13.616975891514478,
+      "wald_stat_HC3": 2.281667556662578,
+      "p_wald_HC3": 0.1309110527834443,
+      "p_boot_2colas": 0.101
+    }
+  },
+  "bloque2_asimetria_rolling": [
+    {
+      "cultivo": "soja",
+      "modelo": "M3 ARIMAX (lineal)",
+      "RMSE kg/ha": 409.715,
+      "MAE kg/ha": 310.8,
+      "MAPE %": 13.267,
+      "skill vs ARIMA %": 17.058,
+      "RMSE años Niña": 540.087
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "M3_asim ARIMAX (quebrado)",
+      "RMSE kg/ha": 421.904,
+      "MAE kg/ha": 332.418,
+      "MAPE %": 14.183,
+      "skill vs ARIMA %": 12.049,
+      "RMSE años Niña": 561.378
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "Híbrido RF",
+      "RMSE kg/ha": 403.659,
+      "MAE kg/ha": 321.972,
+      "MAPE %": 13.508,
+      "skill vs ARIMA %": 19.492,
+      "RMSE años Niña": 424.589
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "Híbrido GBM",
+      "RMSE kg/ha": 420.489,
+      "MAE kg/ha": 337.465,
+      "MAPE %": 14.314,
+      "skill vs ARIMA %": 12.638,
+      "RMSE años Niña": 448.559
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M3 ARIMAX (lineal)",
+      "RMSE kg/ha": 951.616,
+      "MAE kg/ha": 768.968,
+      "MAPE %": 11.905,
+      "skill vs ARIMA %": 28.279,
+      "RMSE años Niña": 1235.343
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M3_asim ARIMAX (quebrado)",
+      "RMSE kg/ha": 973.966,
+      "MAE kg/ha": 767.964,
+      "MAPE %": 11.98,
+      "skill vs ARIMA %": 24.87,
+      "RMSE años Niña": 1225.391
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "Híbrido RF",
+      "RMSE kg/ha": 884.909,
+      "MAE kg/ha": 765.808,
+      "MAPE %": 11.635,
+      "skill vs ARIMA %": 37.981,
+      "RMSE años Niña": 879.662
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "Híbrido GBM",
+      "RMSE kg/ha": 840.735,
+      "MAE kg/ha": 697.118,
+      "MAPE %": 10.714,
+      "skill vs ARIMA %": 44.019,
+      "RMSE años Niña": 829.087
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M3 ARIMAX (lineal)",
+      "RMSE kg/ha": 488.945,
+      "MAE kg/ha": 356.892,
+      "MAPE %": 12.845,
+      "skill vs ARIMA %": -9.659,
+      "RMSE años Niña": 810.447
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M3_asim ARIMAX (quebrado)",
+      "RMSE kg/ha": 466.341,
+      "MAE kg/ha": 334.963,
+      "MAPE %": 12.138,
+      "skill vs ARIMA %": 0.246,
+      "RMSE años Niña": 739.392
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "Híbrido RF",
+      "RMSE kg/ha": 494.549,
+      "MAE kg/ha": 363.734,
+      "MAPE %": 13.263,
+      "skill vs ARIMA %": -12.186,
+      "RMSE años Niña": 713.842
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "Híbrido GBM",
+      "RMSE kg/ha": 501.099,
+      "MAE kg/ha": 374.254,
+      "MAPE %": 13.687,
+      "skill vs ARIMA %": -15.178,
+      "RMSE años Niña": 721.001
+    }
+  ],
+  "bloque2_sensibilidad_2026": [
+    {
+      "cultivo": "soja",
+      "campaña": "2025/26",
+      "ONI_JAS": -0.26,
+      "ARIMA_kg_ha": 3118.54,
+      "ARIMAX_lineal_kg_ha": 3015.66,
+      "ARIMAX_asim_kg_ha": 3046.05,
+      "IC80_asim": "2502–3708",
+      "IC95_asim": "2255–4115",
+      "beta_pos_%": 4.95,
+      "beta_neg_%": 17.37,
+      "delta_asim_vs_lin_%": 1.01
+    },
+    {
+      "cultivo": "soja",
+      "campaña": "2026/27",
+      "ONI_JAS": 2.16,
+      "ARIMA_kg_ha": 3152.89,
+      "ARIMAX_lineal_kg_ha": 3886.81,
+      "ARIMAX_asim_kg_ha": 3583.84,
+      "IC80_asim": "2944–4362",
+      "IC95_asim": "2653–4841",
+      "beta_pos_%": 4.95,
+      "beta_neg_%": 17.37,
+      "delta_asim_vs_lin_%": -7.79
+    },
+    {
+      "cultivo": "maiz",
+      "campaña": "2025/26",
+      "ONI_JAS": -0.26,
+      "ARIMA_kg_ha": 7503.24,
+      "ARIMAX_lineal_kg_ha": 7168.52,
+      "ARIMAX_asim_kg_ha": 7244.58,
+      "IC80_asim": "6096–8609",
+      "IC95_asim": "5564–9432",
+      "beta_pos_%": 4.86,
+      "beta_neg_%": 15.37,
+      "delta_asim_vs_lin_%": 1.06
+    },
+    {
+      "cultivo": "maiz",
+      "campaña": "2026/27",
+      "ONI_JAS": 2.16,
+      "ARIMA_kg_ha": 7654.12,
+      "ARIMAX_lineal_kg_ha": 9095.53,
+      "ARIMAX_asim_kg_ha": 8531.74,
+      "IC80_asim": "7116–10230",
+      "IC95_asim": "6464–11261",
+      "beta_pos_%": 4.86,
+      "beta_neg_%": 15.37,
+      "delta_asim_vs_lin_%": -6.2
+    }
+  ],
+  "bloque3_trigo_amj": {
+    "RMSE kg/ha": 477.66300566479646,
+    "MAE kg/ha": 355.09851745550236,
+    "MAPE %": 12.818975314800019,
+    "skill vs ARIMA %": -4.6564437499149625,
+    "RMSE años Niña": 776.7031932161344,
+    "p_DM_log": 0.8503218227159242
+  },
+  "bloque3_rolling_h2": [
+    {
+      "cultivo": "soja",
+      "n": 29,
+      "M2_RMSE_h2": 452.89,
+      "M3_RMSE_h2": 419.37,
+      "skill_h2_%": 14.25,
+      "M2_cov80_%": 86.2,
+      "M2_cov95_%": 89.7,
+      "M3_cov80_%": 86.2,
+      "M3_cov95_%": 93.1,
+      "p_DM_h2_log": 0.1387,
+      "p_DM_h2_kg": 0.1457
+    },
+    {
+      "cultivo": "maiz",
+      "n": 29,
+      "M2_RMSE_h2": 1233.77,
+      "M3_RMSE_h2": 1079.77,
+      "skill_h2_%": 23.41,
+      "M2_cov80_%": 72.4,
+      "M2_cov95_%": 86.2,
+      "M3_cov80_%": 72.4,
+      "M3_cov95_%": 93.1,
+      "p_DM_h2_log": 0.0899,
+      "p_DM_h2_kg": 0.0643
+    }
+  ],
+  "bloque3_puente_enso_skill": {
+    "corr_1995_2024": 0.9090923405731127,
+    "rmse_1995_2024": 0.51099716689606
+  },
+  "bloque3_puente_3a_3b": [
+    {
+      "cultivo": "soja",
+      "modelo": "M2 ARIMA",
+      "RMSE kg/ha": 449.877,
+      "MAE kg/ha": 319.926,
+      "MAPE %": 13.993,
+      "skill vs ARIMA %": 0.0,
+      "RMSE años Niña": 595.726,
+      "p_DM_log": NaN
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "M3 (ONI JAS obs.)",
+      "RMSE kg/ha": 409.715,
+      "MAE kg/ha": 310.8,
+      "MAPE %": 13.267,
+      "skill vs ARIMA %": 17.058,
+      "RMSE años Niña": 540.087,
+      "p_DM_log": 0.097
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "M3_puente (Niño3.4 DJF hat)",
+      "RMSE kg/ha": 408.449,
+      "MAE kg/ha": 296.705,
+      "MAPE %": 12.919,
+      "skill vs ARIMA %": 17.57,
+      "RMSE años Niña": 558.088,
+      "p_DM_log": 0.046
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "M4 (Oráculo DJF obs.)",
+      "RMSE kg/ha": 406.013,
+      "MAE kg/ha": 301.598,
+      "MAPE %": 13.038,
+      "skill vs ARIMA %": 18.55,
+      "RMSE años Niña": 580.095,
+      "p_DM_log": 0.056
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M2 ARIMA",
+      "RMSE kg/ha": 1123.667,
+      "MAE kg/ha": 913.984,
+      "MAPE %": 14.011,
+      "skill vs ARIMA %": 0.0,
+      "RMSE años Niña": 1476.303,
+      "p_DM_log": NaN
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M3 (ONI JAS obs.)",
+      "RMSE kg/ha": 951.616,
+      "MAE kg/ha": 768.968,
+      "MAPE %": 11.905,
+      "skill vs ARIMA %": 28.279,
+      "RMSE años Niña": 1235.343,
+      "p_DM_log": 0.043
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M3_puente (Niño3.4 DJF hat)",
+      "RMSE kg/ha": 1010.124,
+      "MAE kg/ha": 815.558,
+      "MAPE %": 12.603,
+      "skill vs ARIMA %": 19.188,
+      "RMSE años Niña": 1296.138,
+      "p_DM_log": 0.035
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M4 (Oráculo DJF obs.)",
+      "RMSE kg/ha": 953.818,
+      "MAE kg/ha": 759.213,
+      "MAPE %": 11.858,
+      "skill vs ARIMA %": 27.946,
+      "RMSE años Niña": 1339.96,
+      "p_DM_log": 0.015
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M2 ARIMA",
+      "RMSE kg/ha": 466.916,
+      "MAE kg/ha": 339.514,
+      "MAPE %": 12.337,
+      "skill vs ARIMA %": 0.0,
+      "RMSE años Niña": 753.777,
+      "p_DM_log": NaN
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M3 (ONI JAS obs.)",
+      "RMSE kg/ha": 488.945,
+      "MAE kg/ha": 356.892,
+      "MAPE %": 12.845,
+      "skill vs ARIMA %": -9.659,
+      "RMSE años Niña": 810.447,
+      "p_DM_log": 0.766
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M3_puente (Niño3.4 DJF hat)",
+      "RMSE kg/ha": 447.893,
+      "MAE kg/ha": 326.941,
+      "MAPE %": 12.032,
+      "skill vs ARIMA %": 7.982,
+      "RMSE años Niña": 702.749,
+      "p_DM_log": 0.126
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M4 (Oráculo DJF obs.)",
+      "RMSE kg/ha": 484.005,
+      "MAE kg/ha": 355.928,
+      "MAPE %": 12.829,
+      "skill vs ARIMA %": -7.454,
+      "RMSE años Niña": 796.648,
+      "p_DM_log": 0.768
+    }
+  ],
+  "bloque4_diagnosticos_ljungbox": [
+    {
+      "cultivo": "soja",
+      "modelo": "M2 ARIMA",
+      "orden": "(0, 1, 1)",
+      "LB_p_lag5": 0.9549,
+      "LB_p_lag10": 0.9506
+    },
+    {
+      "cultivo": "soja",
+      "modelo": "M3 ARIMAX (oni_jas)",
+      "orden": "(0, 1, 1)",
+      "LB_p_lag5": 0.8632,
+      "LB_p_lag10": 0.8684
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M2 ARIMA",
+      "orden": "(0, 1, 1)",
+      "LB_p_lag5": 0.5217,
+      "LB_p_lag10": 0.8836
+    },
+    {
+      "cultivo": "maiz",
+      "modelo": "M3 ARIMAX (oni_jas)",
+      "orden": "(0, 1, 1)",
+      "LB_p_lag5": 0.2009,
+      "LB_p_lag10": 0.1718
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M2 ARIMA",
+      "orden": "(0, 1, 1)",
+      "LB_p_lag5": 0.8148,
+      "LB_p_lag10": 0.8723
+    },
+    {
+      "cultivo": "trigo",
+      "modelo": "M3 ARIMAX (oni_amj)",
+      "orden": "(0, 1, 1)",
+      "LB_p_lag5": 0.8703,
+      "LB_p_lag10": 0.883
+    }
+  ],
+  "bloque4_dm_unificado_holm": [
+    {
+      "modelo": "M0 Naive",
+      "soja_DM_log": 1.6407,
+      "soja_p_log": 0.9442,
+      "soja_DM_kg": 1.6528,
+      "soja_p_kg": 0.9454,
+      "maiz_DM_log": 0.5724,
+      "maiz_p_log": 0.7143,
+      "maiz_DM_kg": 0.4647,
+      "maiz_p_kg": 0.6772,
+      "trigo_DM_log": 0.6581,
+      "trigo_p_log": 0.7422,
+      "trigo_DM_kg": 0.3169,
+      "trigo_p_kg": 0.6232,
+      "soja_pHolm_log": 1.0,
+      "maiz_pHolm_log": 1.0,
+      "soja_pHolm_kg": 1.0,
+      "maiz_pHolm_kg": 1.0
+    },
+    {
+      "modelo": "M0b RW + drift",
+      "soja_DM_log": 1.7566,
+      "soja_p_log": 0.9552,
+      "soja_DM_kg": 1.81,
+      "soja_p_kg": 0.9597,
+      "maiz_DM_log": 0.703,
+      "maiz_p_log": 0.7562,
+      "maiz_DM_kg": 0.6814,
+      "maiz_p_kg": 0.7495,
+      "trigo_DM_log": 0.7784,
+      "trigo_p_log": 0.7787,
+      "trigo_DM_kg": 0.5062,
+      "trigo_p_kg": 0.6917,
+      "soja_pHolm_log": 1.0,
+      "maiz_pHolm_log": 1.0,
+      "soja_pHolm_kg": 1.0,
+      "maiz_pHolm_kg": 1.0
+    },
+    {
+      "modelo": "M1 Tendencia lineal",
+      "soja_DM_log": -0.9882,
+      "soja_p_log": 0.1656,
+      "soja_DM_kg": -0.9857,
+      "soja_p_kg": 0.1662,
+      "maiz_DM_log": 2.1316,
+      "maiz_p_log": 0.9792,
+      "maiz_DM_kg": 2.2817,
+      "maiz_p_kg": 0.985,
+      "trigo_DM_log": -0.8526,
+      "trigo_p_log": 0.2004,
+      "trigo_DM_kg": -0.8246,
+      "trigo_p_kg": 0.2082,
+      "soja_pHolm_log": 0.3312,
+      "maiz_pHolm_log": 0.9792,
+      "soja_pHolm_kg": 0.3324,
+      "maiz_pHolm_kg": 0.985
+    },
+    {
+      "modelo": "M3 ARIMAX (ONI jul–sep)",
+      "soja_DM_log": -1.3299,
+      "soja_p_log": 0.097,
+      "soja_DM_kg": -1.2261,
+      "soja_p_kg": 0.115,
+      "maiz_DM_log": -1.7741,
+      "maiz_p_log": 0.0433,
+      "maiz_DM_kg": -2.0433,
+      "maiz_p_kg": 0.0251,
+      "trigo_DM_log": 0.7338,
+      "trigo_p_log": 0.7655,
+      "trigo_DM_kg": 0.8539,
+      "trigo_p_kg": 0.7999,
+      "soja_pHolm_log": 0.097,
+      "maiz_pHolm_log": 0.0865,
+      "soja_pHolm_kg": 0.115,
+      "maiz_pHolm_kg": 0.0502
+    },
+    {
+      "modelo": "M3_asim ARIMAX",
+      "soja_DM_log": -0.7111,
+      "soja_p_log": 0.2413,
+      "soja_DM_kg": -0.834,
+      "soja_p_kg": 0.2056,
+      "maiz_DM_log": -1.1689,
+      "maiz_p_log": 0.126,
+      "maiz_DM_kg": -1.7867,
+      "maiz_p_kg": 0.0422,
+      "trigo_DM_log": -0.3263,
+      "trigo_p_log": 0.3733,
+      "trigo_DM_kg": -0.0145,
+      "trigo_p_kg": 0.4943,
+      "soja_pHolm_log": 0.252,
+      "maiz_pHolm_log": 0.252,
+      "soja_pHolm_kg": 0.2056,
+      "maiz_pHolm_kg": 0.0844
+    },
+    {
+      "modelo": "M3_puente DJF_hat",
+      "soja_DM_log": -1.7414,
+      "soja_p_log": 0.0461,
+      "soja_DM_kg": -1.7687,
+      "soja_p_kg": 0.0437,
+      "maiz_DM_log": -1.8876,
+      "maiz_p_log": 0.0346,
+      "maiz_DM_kg": -2.1519,
+      "maiz_p_kg": 0.0199,
+      "trigo_DM_log": -1.1668,
+      "trigo_p_log": 0.1264,
+      "trigo_DM_kg": -1.2316,
+      "trigo_p_kg": 0.114,
+      "soja_pHolm_log": 0.0691,
+      "maiz_pHolm_log": 0.0691,
+      "soja_pHolm_kg": 0.0437,
+      "maiz_pHolm_kg": 0.0399
+    },
+    {
+      "modelo": "M4 ARIMAX oráculo (ONI dic–feb)",
+      "soja_DM_log": -1.6386,
+      "soja_p_log": 0.056,
+      "soja_DM_kg": -1.6911,
+      "soja_p_kg": 0.0508,
+      "maiz_DM_log": -2.2757,
+      "maiz_p_log": 0.0152,
+      "maiz_DM_kg": -2.7781,
+      "maiz_p_kg": 0.0047,
+      "trigo_DM_log": 0.7425,
+      "trigo_p_log": 0.7681,
+      "trigo_DM_kg": 0.8513,
+      "trigo_p_kg": 0.7992,
+      "soja_pHolm_log": 0.056,
+      "maiz_pHolm_log": 0.0304,
+      "soja_pHolm_kg": 0.0508,
+      "maiz_pHolm_kg": 0.0095
+    },
+    {
+      "modelo": "M5_sin_oni Prophet",
+      "soja_DM_log": -0.4927,
+      "soja_p_log": 0.313,
+      "soja_DM_kg": -0.2712,
+      "soja_p_kg": 0.3941,
+      "maiz_DM_log": -1.3817,
+      "maiz_p_log": 0.0888,
+      "maiz_DM_kg": -1.334,
+      "maiz_p_kg": 0.0963,
+      "trigo_DM_log": -0.9901,
+      "trigo_p_log": 0.1652,
+      "trigo_DM_kg": -1.0027,
+      "trigo_p_kg": 0.1621,
+      "soja_pHolm_log": 0.313,
+      "maiz_pHolm_log": 0.1776,
+      "soja_pHolm_kg": 0.3941,
+      "maiz_pHolm_kg": 0.1926
+    },
+    {
+      "modelo": "M5 Prophet + ONI",
+      "soja_DM_log": -0.8496,
+      "soja_p_log": 0.2013,
+      "soja_DM_kg": -0.8923,
+      "soja_p_kg": 0.1898,
+      "maiz_DM_log": -1.9925,
+      "maiz_p_log": 0.0279,
+      "maiz_DM_kg": -2.0559,
+      "maiz_p_kg": 0.0244,
+      "trigo_DM_log": -0.7038,
+      "trigo_p_log": 0.2436,
+      "trigo_DM_kg": -0.7016,
+      "trigo_p_kg": 0.2442,
+      "soja_pHolm_log": 0.2013,
+      "maiz_pHolm_log": 0.0558,
+      "soja_pHolm_kg": 0.1898,
+      "maiz_pHolm_kg": 0.0489
+    },
+    {
+      "modelo": "Híbrido Ridge",
+      "soja_DM_log": 0.2714,
+      "soja_p_log": 0.606,
+      "soja_DM_kg": 0.3147,
+      "soja_p_kg": 0.6224,
+      "maiz_DM_log": -1.6191,
+      "maiz_p_log": 0.0581,
+      "maiz_DM_kg": -1.2407,
+      "maiz_p_kg": 0.1123,
+      "trigo_DM_log": 0.6758,
+      "trigo_p_log": 0.7477,
+      "trigo_DM_kg": 0.9205,
+      "trigo_p_kg": 0.8175,
+      "soja_pHolm_log": 0.606,
+      "maiz_pHolm_log": 0.1163,
+      "soja_pHolm_kg": 0.6224,
+      "maiz_pHolm_kg": 0.2247
+    },
+    {
+      "modelo": "Híbrido RF (solo ONI)",
+      "soja_DM_log": 0.0906,
+      "soja_p_log": 0.5358,
+      "soja_DM_kg": 0.1418,
+      "soja_p_kg": 0.5559,
+      "maiz_DM_log": -1.3205,
+      "maiz_p_log": 0.0985,
+      "maiz_DM_kg": -1.2491,
+      "maiz_p_kg": 0.1108,
+      "trigo_DM_log": 1.1111,
+      "trigo_p_log": 0.8622,
+      "trigo_DM_kg": 1.0907,
+      "trigo_p_kg": 0.8578,
+      "soja_pHolm_log": 0.5358,
+      "maiz_pHolm_log": 0.197,
+      "soja_pHolm_kg": 0.5559,
+      "maiz_pHolm_kg": 0.2216
+    },
+    {
+      "modelo": "Híbrido RF",
+      "soja_DM_log": -0.8977,
+      "soja_p_log": 0.1884,
+      "soja_DM_kg": -0.7448,
+      "soja_p_kg": 0.2312,
+      "maiz_DM_log": -1.7342,
+      "maiz_p_log": 0.0468,
+      "maiz_DM_kg": -1.6262,
+      "maiz_p_kg": 0.0574,
+      "trigo_DM_log": 1.2098,
+      "trigo_p_log": 0.8819,
+      "trigo_DM_kg": 1.233,
+      "trigo_p_kg": 0.8863,
+      "soja_pHolm_log": 0.1884,
+      "maiz_pHolm_log": 0.0935,
+      "soja_pHolm_kg": 0.2312,
+      "maiz_pHolm_kg": 0.1147
+    },
+    {
+      "modelo": "Híbrido GBM (solo ONI)",
+      "soja_DM_log": 0.8507,
+      "soja_p_log": 0.7991,
+      "soja_DM_kg": 0.8921,
+      "soja_p_kg": 0.8102,
+      "maiz_DM_log": -0.859,
+      "maiz_p_log": 0.1987,
+      "maiz_DM_kg": -0.8265,
+      "maiz_p_kg": 0.2076,
+      "trigo_DM_log": 1.9999,
+      "trigo_p_log": 0.9725,
+      "trigo_DM_kg": 1.7427,
+      "trigo_p_kg": 0.954,
+      "soja_pHolm_log": 0.7991,
+      "maiz_pHolm_log": 0.3974,
+      "soja_pHolm_kg": 0.8102,
+      "maiz_pHolm_kg": 0.4152
+    },
+    {
+      "modelo": "Híbrido GBM",
+      "soja_DM_log": -0.578,
+      "soja_p_log": 0.2839,
+      "soja_DM_kg": -0.4895,
+      "soja_p_kg": 0.3141,
+      "maiz_DM_log": -1.6733,
+      "maiz_p_log": 0.0525,
+      "maiz_DM_kg": -1.721,
+      "maiz_p_kg": 0.048,
+      "trigo_DM_log": 1.3144,
+      "trigo_p_log": 0.9005,
+      "trigo_DM_kg": 1.0843,
+      "trigo_p_kg": 0.8564,
+      "soja_pHolm_log": 0.2839,
+      "maiz_pHolm_log": 0.105,
+      "soja_pHolm_kg": 0.3141,
+      "maiz_pHolm_kg": 0.0959
+    },
+    {
+      "modelo": "Híbrido MLP",
+      "soja_DM_log": -0.5082,
+      "soja_p_log": 0.3076,
+      "soja_DM_kg": -0.5591,
+      "soja_p_kg": 0.2902,
+      "maiz_DM_log": -1.7293,
+      "maiz_p_log": 0.0472,
+      "maiz_DM_kg": -1.6246,
+      "maiz_p_kg": 0.0575,
+      "trigo_DM_log": 0.8715,
+      "trigo_p_log": 0.8047,
+      "trigo_DM_kg": 1.0646,
+      "trigo_p_kg": 0.8521,
+      "soja_pHolm_log": 0.3076,
+      "maiz_pHolm_log": 0.0944,
+      "soja_pHolm_kg": 0.2902,
+      "maiz_pHolm_kg": 0.1151
+    }
+  ],
+  "bloque5_coherencia_wavelet": {
+    "n_meses": 540,
+    "ar1_nino34": 0.9578930320344076,
+    "ar1_precip_z": 0.06881038746694977,
+    "n_mc": 250,
+    "R2_global_mean": 0.4772905055727637,
+    "R2_global_max": 0.9675625695436446,
+    "decadas": [
+      {
+        "decada": "1980s (1981–89)",
+        "n_celdas_COI": 919,
+        "R2_media_2_7_anios": 0.46326978112307005,
+        "R2_max_2_7_anios": 0.7114228665175629,
+        "frac_sig95_%": 0.0
+      },
+      {
+        "decada": "1990s (1990–99)",
+        "n_celdas_COI": 2634,
+        "R2_media_2_7_anios": 0.47425769223392045,
+        "R2_max_2_7_anios": 0.8952282010606575,
+        "frac_sig95_%": 23.652239939255885
+      },
+      {
+        "decada": "2000s (2000–09)",
+        "n_celdas_COI": 2640,
+        "R2_media_2_7_anios": 0.5339983103813691,
+        "R2_max_2_7_anios": 0.9675625695436446,
+        "frac_sig95_%": 35.984848484848484
+      },
+      {
+        "decada": "2010s–2020s (2010–25)",
+        "n_celdas_COI": 2761,
+        "R2_media_2_7_anios": 0.34086726026891934,
+        "R2_max_2_7_anios": 0.8259425110986043,
+        "frac_sig95_%": 2.752625860195581
+      }
+    ]
+  }
+}

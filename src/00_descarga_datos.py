@@ -73,10 +73,10 @@ def bajar(url: str, destino: Path, forzar: bool = False) -> None:
         destino.write_bytes(r.read())
 
 
-def main(forzar: bool = False) -> None:
+def main(forzar: bool = False, actualizar_noaa: bool = False) -> None:
     print("NOAA")
     for nombre, url in NOAA.items():
-        bajar(url, RAW / "noaa" / nombre, forzar=True)  # se actualiza mensualmente
+        bajar(url, RAW / "noaa" / nombre, forzar=forzar or actualizar_noaa)
 
     print("MAGyP")
     for nombre, url in MAGYP.items():
@@ -94,4 +94,4 @@ def main(forzar: bool = False) -> None:
 if __name__ == "__main__":
     import sys
 
-    main(forzar="--forzar" in sys.argv)
+    main(forzar="--forzar" in sys.argv, actualizar_noaa="--actualizar-noaa" in sys.argv)
