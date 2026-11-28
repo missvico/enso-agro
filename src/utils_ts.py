@@ -147,21 +147,28 @@ def oni_campanias(camp: pd.DataFrame) -> pd.DataFrame:
 
 
 # ------------------------------------------------------------------ evaluación de pronósticos
-def dm_test(e1, e2, h: int = 1, alternativa: str = "two-sided") -> dict:
+def dm_test(e1, e2, h: int = 1, alternativa: str = "two-sided", kernel: str = "rectangular") -> dict:
     """Diebold-Mariano (1995) con la corrección de Harvey, Leybourne y Newbold (1997).
 
     e1, e2: errores de pronóstico de los modelos 1 y 2 sobre los mismos objetivos.
     Pérdida cuadrática. d = e1² − e2²; DM < 0 => el modelo 1 es más preciso.
     alternativa: 'two-sided' o 'less' (H1: el modelo 1 tiene menor pérdida).
+    kernel: 'rectangular' (por defecto, preserva 03/04) o 'bartlett' (pesos 1 - k/h,
+            equivalente a forecast::dm.test(varestimator='bartlett') para h > 1).
     """
     from scipy import stats as _st
+    if kernel not in ("rectangular", "bartlett"):
+        raise ValueError(f"kernel inválido: {kernel!r}")
     e1, e2 = np.asarray(e1, float), np.asarray(e2, float)
     ok = ~(np.isnan(e1) | np.isnan(e2))
     d = e1[ok] ** 2 - e2[ok] ** 2
     n = len(d)
     dbar = d.mean()
     gam = [np.sum((d[k:] - dbar) * (d[:n - k] - dbar)) / n for k in range(h)]
-    var = (gam[0] + 2 * sum((1 - k / h) * gam[k] for k in range(1, h))) / n
+    if kernel == "bartlett":
+        var = (gam[0] + 2 * sum((1 - k / h) * gam[k] for k in range(1, h))) / n
+    else:
+        var = (gam[0] + 2 * sum(gam[1:])) / n
     dm = dbar / np.sqrt(var) if var > 0 else np.nan
     hln = np.sqrt((n + 1 - 2 * h + h * (h - 1) / n) / n)
     stat = dm * hln

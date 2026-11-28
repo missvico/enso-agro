@@ -1,4 +1,18 @@
 {
+  "bloque1_m2_reajuste_check": {
+    "soja": {
+      "max_rel_diff": 0.000852,
+      "tol": 0.002
+    },
+    "maiz": {
+      "max_rel_diff": 0.000493,
+      "tol": 0.002
+    },
+    "trigo": {
+      "max_rel_diff": 0.010507,
+      "tol": 0.015
+    }
+  },
   "bloque1_baselines": [
     {
       "cultivo": "soja",
@@ -12,11 +26,11 @@
     {
       "cultivo": "soja",
       "modelo": "M2 ARIMA",
-      "RMSE kg/ha": 449.908,
-      "MAE kg/ha": 320.055,
-      "MAPE %": 13.998,
-      "skill vs ARIMA %": -0.014,
-      "RMSE años Niña": 595.696
+      "RMSE kg/ha": 449.877,
+      "MAE kg/ha": 319.926,
+      "MAPE %": 13.993,
+      "skill vs ARIMA %": 0.0,
+      "RMSE años Niña": 595.726
     },
     {
       "cultivo": "soja",
@@ -48,11 +62,11 @@
     {
       "cultivo": "soja",
       "modelo": "Híbrido RF (solo ONI)",
-      "RMSE kg/ha": 454.247,
-      "MAE kg/ha": 334.134,
-      "MAPE %": 14.47,
-      "skill vs ARIMA %": -1.952,
-      "RMSE años Niña": 541.825
+      "RMSE kg/ha": 454.328,
+      "MAE kg/ha": 334.189,
+      "MAPE %": 14.472,
+      "skill vs ARIMA %": -1.989,
+      "RMSE años Niña": 541.845
     },
     {
       "cultivo": "soja",
@@ -66,11 +80,11 @@
     {
       "cultivo": "soja",
       "modelo": "Híbrido GBM (solo ONI)",
-      "RMSE kg/ha": 478.794,
-      "MAE kg/ha": 347.61,
-      "MAPE %": 15.103,
-      "skill vs ARIMA %": -13.269,
-      "RMSE años Niña": 576.34
+      "RMSE kg/ha": 478.864,
+      "MAE kg/ha": 347.659,
+      "MAPE %": 15.105,
+      "skill vs ARIMA %": -13.302,
+      "RMSE años Niña": 576.36
     },
     {
       "cultivo": "soja",
@@ -93,11 +107,11 @@
     {
       "cultivo": "maiz",
       "modelo": "M2 ARIMA",
-      "RMSE kg/ha": 1123.604,
-      "MAE kg/ha": 914.002,
-      "MAPE %": 14.012,
-      "skill vs ARIMA %": 0.011,
-      "RMSE años Niña": 1476.282
+      "RMSE kg/ha": 1123.667,
+      "MAE kg/ha": 913.984,
+      "MAPE %": 14.011,
+      "skill vs ARIMA %": 0.0,
+      "RMSE años Niña": 1476.303
     },
     {
       "cultivo": "maiz",
@@ -129,11 +143,11 @@
     {
       "cultivo": "maiz",
       "modelo": "Híbrido RF (solo ONI)",
-      "RMSE kg/ha": 995.855,
-      "MAE kg/ha": 802.289,
-      "MAPE %": 12.243,
-      "skill vs ARIMA %": 21.455,
-      "RMSE años Niña": 1112.558
+      "RMSE kg/ha": 995.728,
+      "MAE kg/ha": 802.264,
+      "MAPE %": 12.244,
+      "skill vs ARIMA %": 21.475,
+      "RMSE años Niña": 1112.511
     },
     {
       "cultivo": "maiz",
@@ -147,11 +161,11 @@
     {
       "cultivo": "maiz",
       "modelo": "Híbrido GBM (solo ONI)",
-      "RMSE kg/ha": 1032.576,
-      "MAE kg/ha": 830.957,
-      "MAPE %": 12.709,
-      "skill vs ARIMA %": 15.556,
-      "RMSE años Niña": 1129.679
+      "RMSE kg/ha": 1032.39,
+      "MAE kg/ha": 830.915,
+      "MAPE %": 12.71,
+      "skill vs ARIMA %": 15.586,
+      "RMSE años Niña": 1129.688
     },
     {
       "cultivo": "maiz",
@@ -174,11 +188,11 @@
     {
       "cultivo": "trigo",
       "modelo": "M2 ARIMA",
-      "RMSE kg/ha": 464.311,
-      "MAE kg/ha": 338.074,
-      "MAPE %": 12.296,
-      "skill vs ARIMA %": 1.113,
-      "RMSE años Niña": 746.905
+      "RMSE kg/ha": 466.916,
+      "MAE kg/ha": 339.514,
+      "MAPE %": 12.337,
+      "skill vs ARIMA %": 0.0,
+      "RMSE años Niña": 753.777
     },
     {
       "cultivo": "trigo",
@@ -210,11 +224,11 @@
     {
       "cultivo": "trigo",
       "modelo": "Híbrido RF (solo ONI)",
-      "RMSE kg/ha": 495.905,
-      "MAE kg/ha": 365.743,
-      "MAPE %": 13.328,
-      "skill vs ARIMA %": -12.803,
-      "RMSE años Niña": 771.706
+      "RMSE kg/ha": 443.352,
+      "MAE kg/ha": 337.089,
+      "MAPE %": 12.143,
+      "skill vs ARIMA %": 9.839,
+      "RMSE años Niña": 670.007
     },
     {
       "cultivo": "trigo",
@@ -228,11 +242,11 @@
     {
       "cultivo": "trigo",
       "modelo": "Híbrido GBM (solo ONI)",
-      "RMSE kg/ha": 510.661,
-      "MAE kg/ha": 385.847,
-      "MAPE %": 14.12,
-      "skill vs ARIMA %": -19.616,
-      "RMSE años Niña": 758.088
+      "RMSE kg/ha": 430.89,
+      "MAE kg/ha": 340.03,
+      "MAPE %": 12.231,
+      "skill vs ARIMA %": 14.836,
+      "RMSE años Niña": 626.44
     },
     {
       "cultivo": "trigo",
@@ -438,11 +452,11 @@
     {
       "cultivo": "trigo",
       "modelo": "M3_asim ARIMAX (quebrado)",
-      "RMSE kg/ha": 466.341,
-      "MAE kg/ha": 334.963,
-      "MAPE %": 12.138,
-      "skill vs ARIMA %": 0.246,
-      "RMSE años Niña": 739.392
+      "RMSE kg/ha": 492.097,
+      "MAE kg/ha": 357.126,
+      "MAPE %": 12.792,
+      "skill vs ARIMA %": -11.077,
+      "RMSE años Niña": 806.392
     },
     {
       "cultivo": "trigo",
@@ -637,90 +651,57 @@
       "skill vs ARIMA %": 27.946,
       "RMSE años Niña": 1339.96,
       "p_DM_log": 0.015
-    },
-    {
-      "cultivo": "trigo",
-      "modelo": "M2 ARIMA",
-      "RMSE kg/ha": 466.916,
-      "MAE kg/ha": 339.514,
-      "MAPE %": 12.337,
-      "skill vs ARIMA %": 0.0,
-      "RMSE años Niña": 753.777,
-      "p_DM_log": NaN
-    },
-    {
-      "cultivo": "trigo",
-      "modelo": "M3 (ONI JAS obs.)",
-      "RMSE kg/ha": 488.945,
-      "MAE kg/ha": 356.892,
-      "MAPE %": 12.845,
-      "skill vs ARIMA %": -9.659,
-      "RMSE años Niña": 810.447,
-      "p_DM_log": 0.766
-    },
-    {
-      "cultivo": "trigo",
-      "modelo": "M3_puente (Niño3.4 DJF hat)",
-      "RMSE kg/ha": 447.893,
-      "MAE kg/ha": 326.941,
-      "MAPE %": 12.032,
-      "skill vs ARIMA %": 7.982,
-      "RMSE años Niña": 702.749,
-      "p_DM_log": 0.126
-    },
-    {
-      "cultivo": "trigo",
-      "modelo": "M4 (Oráculo DJF obs.)",
-      "RMSE kg/ha": 484.005,
-      "MAE kg/ha": 355.928,
-      "MAPE %": 12.829,
-      "skill vs ARIMA %": -7.454,
-      "RMSE años Niña": 796.648,
-      "p_DM_log": 0.768
     }
   ],
+  "bloque3_puente_nota_trigo": "Trigo excluido del puente DJF por cosecharse en nov–dic (anterior al trimestre pronosticado DJF).",
   "bloque4_diagnosticos_ljungbox": [
     {
       "cultivo": "soja",
       "modelo": "M2 ARIMA",
       "orden": "(0, 1, 1)",
-      "LB_p_lag5": 0.9549,
-      "LB_p_lag10": 0.9506
+      "model_df": 1,
+      "LB_p_lag5": 0.8956,
+      "LB_p_lag10": 0.9162
     },
     {
       "cultivo": "soja",
       "modelo": "M3 ARIMAX (oni_jas)",
       "orden": "(0, 1, 1)",
-      "LB_p_lag5": 0.8632,
-      "LB_p_lag10": 0.8684
+      "model_df": 1,
+      "LB_p_lag5": 0.7547,
+      "LB_p_lag10": 0.8051
     },
     {
       "cultivo": "maiz",
       "modelo": "M2 ARIMA",
       "orden": "(0, 1, 1)",
-      "LB_p_lag5": 0.5217,
-      "LB_p_lag10": 0.8836
+      "model_df": 1,
+      "LB_p_lag5": 0.3803,
+      "LB_p_lag10": 0.8245
     },
     {
       "cultivo": "maiz",
       "modelo": "M3 ARIMAX (oni_jas)",
       "orden": "(0, 1, 1)",
-      "LB_p_lag5": 0.2009,
-      "LB_p_lag10": 0.1718
+      "model_df": 1,
+      "LB_p_lag5": 0.122,
+      "LB_p_lag10": 0.1214
     },
     {
       "cultivo": "trigo",
       "modelo": "M2 ARIMA",
       "orden": "(0, 1, 1)",
-      "LB_p_lag5": 0.8148,
-      "LB_p_lag10": 0.8723
+      "model_df": 1,
+      "LB_p_lag5": 0.6915,
+      "LB_p_lag10": 0.8099
     },
     {
       "cultivo": "trigo",
       "modelo": "M3 ARIMAX (oni_amj)",
       "orden": "(0, 1, 1)",
-      "LB_p_lag5": 0.8703,
-      "LB_p_lag10": 0.883
+      "model_df": 1,
+      "LB_p_lag5": 0.7645,
+      "LB_p_lag10": 0.8238
     }
   ],
   "bloque4_dm_unificado_holm": [
@@ -810,10 +791,10 @@
       "maiz_p_log": 0.126,
       "maiz_DM_kg": -1.7867,
       "maiz_p_kg": 0.0422,
-      "trigo_DM_log": -0.3263,
-      "trigo_p_log": 0.3733,
-      "trigo_DM_kg": -0.0145,
-      "trigo_p_kg": 0.4943,
+      "trigo_DM_log": 1.0572,
+      "trigo_p_log": 0.8504,
+      "trigo_DM_kg": 1.0419,
+      "trigo_p_kg": 0.847,
       "soja_pHolm_log": 0.252,
       "maiz_pHolm_log": 0.252,
       "soja_pHolm_kg": 0.2056,
@@ -829,10 +810,10 @@
       "maiz_p_log": 0.0346,
       "maiz_DM_kg": -2.1519,
       "maiz_p_kg": 0.0199,
-      "trigo_DM_log": -1.1668,
-      "trigo_p_log": 0.1264,
-      "trigo_DM_kg": -1.2316,
-      "trigo_p_kg": 0.114,
+      "trigo_DM_log": NaN,
+      "trigo_p_log": NaN,
+      "trigo_DM_kg": NaN,
+      "trigo_p_kg": NaN,
       "soja_pHolm_log": 0.0691,
       "maiz_pHolm_log": 0.0691,
       "soja_pHolm_kg": 0.0437,
@@ -916,22 +897,22 @@
     },
     {
       "modelo": "Híbrido RF (solo ONI)",
-      "soja_DM_log": 0.0906,
-      "soja_p_log": 0.5358,
-      "soja_DM_kg": 0.1418,
-      "soja_p_kg": 0.5559,
-      "maiz_DM_log": -1.3205,
-      "maiz_p_log": 0.0985,
-      "maiz_DM_kg": -1.2491,
-      "maiz_p_kg": 0.1108,
-      "trigo_DM_log": 1.1111,
-      "trigo_p_log": 0.8622,
-      "trigo_DM_kg": 1.0907,
-      "trigo_p_kg": 0.8578,
-      "soja_pHolm_log": 0.5358,
-      "maiz_pHolm_log": 0.197,
-      "soja_pHolm_kg": 0.5559,
-      "maiz_pHolm_kg": 0.2216
+      "soja_DM_log": 0.0919,
+      "soja_p_log": 0.5363,
+      "soja_DM_kg": 0.1444,
+      "soja_p_kg": 0.5569,
+      "maiz_DM_log": -1.3215,
+      "maiz_p_log": 0.0983,
+      "maiz_DM_kg": -1.2514,
+      "maiz_p_kg": 0.1104,
+      "trigo_DM_log": -1.0591,
+      "trigo_p_log": 0.1491,
+      "trigo_DM_kg": -0.8358,
+      "trigo_p_kg": 0.2051,
+      "soja_pHolm_log": 0.5363,
+      "maiz_pHolm_log": 0.1967,
+      "soja_pHolm_kg": 0.5569,
+      "maiz_pHolm_kg": 0.2208
     },
     {
       "modelo": "Híbrido RF",
@@ -954,22 +935,22 @@
     },
     {
       "modelo": "Híbrido GBM (solo ONI)",
-      "soja_DM_log": 0.8507,
-      "soja_p_log": 0.7991,
-      "soja_DM_kg": 0.8921,
-      "soja_p_kg": 0.8102,
-      "maiz_DM_log": -0.859,
-      "maiz_p_log": 0.1987,
-      "maiz_DM_kg": -0.8265,
-      "maiz_p_kg": 0.2076,
-      "trigo_DM_log": 1.9999,
-      "trigo_p_log": 0.9725,
-      "trigo_DM_kg": 1.7427,
-      "trigo_p_kg": 0.954,
-      "soja_pHolm_log": 0.7991,
-      "maiz_pHolm_log": 0.3974,
-      "soja_pHolm_kg": 0.8102,
-      "maiz_pHolm_kg": 0.4152
+      "soja_DM_log": 0.8517,
+      "soja_p_log": 0.7993,
+      "soja_DM_kg": 0.8936,
+      "soja_p_kg": 0.8106,
+      "maiz_DM_log": -0.8599,
+      "maiz_p_log": 0.1984,
+      "maiz_DM_kg": -0.8293,
+      "maiz_p_kg": 0.2068,
+      "trigo_DM_log": -1.0775,
+      "trigo_p_log": 0.1451,
+      "trigo_DM_kg": -0.9439,
+      "trigo_p_kg": 0.1765,
+      "soja_pHolm_log": 0.7993,
+      "maiz_pHolm_log": 0.3969,
+      "soja_pHolm_kg": 0.8106,
+      "maiz_pHolm_kg": 0.4137
     },
     {
       "modelo": "Híbrido GBM",
@@ -1017,34 +998,3497 @@
     "n_mc": 250,
     "R2_global_mean": 0.4772905055727637,
     "R2_global_max": 0.9675625695436446,
+    "fase_media_sig_2_7": {
+      "n_celdas_sig_2_7": 1649,
+      "fase_media_rad": 0.1738082824895242,
+      "fase_media_grados": 9.958481031067306,
+      "longitud_resultante_R": 0.8751337947143152,
+      "dispersion_circular": 0.12486620528568482
+    },
     "decadas": [
       {
         "decada": "1980s (1981–89)",
         "n_celdas_COI": 919,
         "R2_media_2_7_anios": 0.46326978112307005,
         "R2_max_2_7_anios": 0.7114228665175629,
-        "frac_sig95_%": 0.0
+        "frac_sig95_%": 0.0,
+        "fase_media_grados": NaN,
+        "R_resultante": NaN
       },
       {
         "decada": "1990s (1990–99)",
         "n_celdas_COI": 2634,
         "R2_media_2_7_anios": 0.47425769223392045,
         "R2_max_2_7_anios": 0.8952282010606575,
-        "frac_sig95_%": 23.652239939255885
+        "frac_sig95_%": 23.652239939255885,
+        "fase_media_grados": -19.662833630135736,
+        "R_resultante": 0.8994267181084145
       },
       {
         "decada": "2000s (2000–09)",
         "n_celdas_COI": 2640,
         "R2_media_2_7_anios": 0.5339983103813691,
         "R2_max_2_7_anios": 0.9675625695436446,
-        "frac_sig95_%": 35.984848484848484
+        "frac_sig95_%": 35.984848484848484,
+        "fase_media_grados": 27.25120555813533,
+        "R_resultante": 0.9788973687854857
       },
       {
         "decada": "2010s–2020s (2010–25)",
         "n_celdas_COI": 2761,
         "R2_media_2_7_anios": 0.34086726026891934,
         "R2_max_2_7_anios": 0.8259425110986043,
-        "frac_sig95_%": 2.752625860195581
+        "frac_sig95_%": 2.752625860195581,
+        "fase_media_grados": 10.401460572312013,
+        "R_resultante": 0.8956328328305354
+      }
+    ]
+  },
+  "bloque1_convergencia_arima": {
+    "n_convergence_warnings": 48,
+    "n_ma_cerca_borde": 251,
+    "por_contexto": [
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "n_conv": 0,
+        "n_borde": 19
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "n_conv": 0,
+        "n_borde": 29
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "n_conv": 3,
+        "n_borde": 30
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "maiz",
+        "n_conv": 0,
+        "n_borde": 7
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "n_conv": 4,
+        "n_borde": 30
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "n_conv": 9,
+        "n_borde": 27
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "maiz",
+        "n_conv": 0,
+        "n_borde": 7
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "n_conv": 3,
+        "n_borde": 29
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "maiz",
+        "n_conv": 0,
+        "n_borde": 14
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "n_conv": 1,
+        "n_borde": 30
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "n_conv": 23,
+        "n_borde": 0
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "n_conv": 5,
+        "n_borde": 29
+      }
+    ],
+    "detalle": [
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 1995,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99203
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 1995,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.995
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 1996,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99728
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 1996,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9975
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 1997,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99514
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 1998,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99484
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 1998,
+        "orden": "(0, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9959
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 1999,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99455
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 1999,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99711
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2000,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99443
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2000,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99722
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2001,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99657
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2001,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99597
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2002,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99748
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2002,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99713
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2003,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99734
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2003,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99601
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2004,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99739
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2004,
+        "orden": "(0, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99961
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2005,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99647
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2005,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99735
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2006,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9975
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2006,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99592
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2007,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99995
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2007,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99801
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2008,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99732
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2008,
+        "orden": "(0, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99903
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2009,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99795
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2009,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99752
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2010,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99536
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2010,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9974
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2011,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99768
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2011,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99749
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2012,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99747
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2012,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99748
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2013,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99786
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2013,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99986
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2014,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99991
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2014,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99835
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2015,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99766
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2015,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99965
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2016,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99662
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2016,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99853
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2017,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99982
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2017,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99744
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2018,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99988
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2018,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99984
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2019,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9995
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2019,
+        "orden": "(0, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99876
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2020,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99778
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2020,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99778
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2021,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99992
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2021,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99752
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2022,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99984
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2022,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99779
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2023,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99981
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2023,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9997
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "soja",
+        "campania": 2024,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99749
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "soja",
+        "campania": 2024,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99988
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 1995,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99735
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "maiz",
+        "campania": 1995,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99707
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 1996,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99578
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "maiz",
+        "campania": 1996,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99677
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 1997,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99721
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "maiz",
+        "campania": 1997,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99688
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 1998,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99614
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "maiz",
+        "campania": 1998,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99681
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 1999,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99705
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "maiz",
+        "campania": 1999,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99536
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 2000,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99665
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "maiz",
+        "campania": 2000,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9974
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 2001,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99718
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "maiz",
+        "campania": 2001,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99438
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 2002,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99708
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 2003,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99797
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 2004,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9954
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 2006,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99526
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 2008,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9977
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 2009,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99714
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 2010,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9978
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 2011,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99724
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 2012,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99969
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 2013,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99973
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 2014,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99742
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "maiz",
+        "campania": 2015,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99752
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 1995,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99983
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 1995,
+        "orden": "(0, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99641
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 1996,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9962
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 1996,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99633
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 1997,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99989
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 1997,
+        "orden": "(0, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99728
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 1998,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99989
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 1998,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99984
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 1999,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99752
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 1999,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99678
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2000,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9968
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2000,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99607
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2001,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99668
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2001,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99453
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2002,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99604
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2002,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99579
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2003,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99757
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2003,
+        "orden": "(0, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99484
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2004,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99702
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2004,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99606
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2005,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99975
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2005,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99592
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2006,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99984
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2006,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99654
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2007,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99679
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2007,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9966
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2008,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99654
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2008,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99676
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2009,
+        "orden": "(0, 1, 2)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -1.98217,
+          "ma.L2": 0.98255
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2009,
+        "orden": "(0, 1, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -1.35415,
+          "ma.L2": 0.38926
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2010,
+        "orden": "(0, 1, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -1.981,
+          "ma.L2": 0.98695
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2010,
+        "orden": "(0, 1, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -1.44631,
+          "ma.L2": 0.45494
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2011,
+        "orden": "(0, 1, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -1.98749,
+          "ma.L2": 0.99622
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2011,
+        "orden": "(0, 1, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -1.78363,
+          "ma.L2": 0.80991
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2012,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99695
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2012,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99984
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2013,
+        "orden": "(0, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9998
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2013,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99607
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2014,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9998
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2014,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9982
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2015,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9976
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2015,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99953
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2016,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99987
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2016,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.998
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2017,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99812
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2017,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99883
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2018,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99988
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2018,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99944
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2019,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99976
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2019,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99728
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2020,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99979
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2020,
+        "orden": "(0, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99824
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2021,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99786
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2021,
+        "orden": "(0, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99769
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2022,
+        "orden": "(2, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.96179
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2022,
+        "orden": "(2, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.96448
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2023,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99781
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2023,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99871
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B1_M2_resid",
+        "cultivo": "trigo",
+        "campania": 2024,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9998
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B2_M3_asim",
+        "cultivo": "trigo",
+        "campania": 2024,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9997
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 1995,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9968
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 1996,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99689
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 1997,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99986
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 1998,
+        "orden": "(0, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99983
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 1999,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99974
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2000,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99985
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2001,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9961
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2002,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99636
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2003,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9966
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2004,
+        "orden": "(0, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99996
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2005,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99714
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2006,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99973
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2007,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99987
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2008,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9965
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2009,
+        "orden": "(0, 1, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -1.98037,
+          "ma.L2": 0.98076
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2010,
+        "orden": "(0, 1, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -1.91102,
+          "ma.L2": 0.91134
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2011,
+        "orden": "(0, 1, 2)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -1.99133,
+          "ma.L2": 0.99959
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2012,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99693
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2013,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9996
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2014,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99979
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2015,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99826
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2016,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99727
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2017,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99794
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2018,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99986
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2019,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99713
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2020,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99748
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2021,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99978
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2022,
+        "orden": "(2, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99684
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2023,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99984
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_trigo_AMJ",
+        "cultivo": "trigo",
+        "campania": 2024,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9992
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 1996,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99281
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 1997,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99668
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 1998,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99521
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 1999,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99288
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2000,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99535
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2001,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99565
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2002,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99707
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2003,
+        "orden": "(0, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99706
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2004,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99792
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2005,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99746
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2006,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99714
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2007,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99568
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2008,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99807
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2009,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99706
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2010,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99746
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2011,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99985
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2012,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99775
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2013,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99834
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2014,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99757
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2015,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99746
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2016,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99842
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2017,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99836
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2018,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99715
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2019,
+        "orden": "(0, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99798
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2020,
+        "orden": "(0, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9999
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2021,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99988
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2022,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9999
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2023,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99817
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "soja",
+        "campania": 2024,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99828
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "maiz",
+        "campania": 1996,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99701
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "maiz",
+        "campania": 1997,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99946
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "maiz",
+        "campania": 1998,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99689
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "maiz",
+        "campania": 1999,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99678
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "maiz",
+        "campania": 2000,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99778
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "maiz",
+        "campania": 2001,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99542
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_h2_M3",
+        "cultivo": "maiz",
+        "campania": 2002,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99768
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1970,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.6368,
+          "ma.L2": -0.27969
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1971,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.63561,
+          "ma.L2": -0.30226
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1972,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.65393,
+          "ma.L2": -0.28177
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1976,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.54215,
+          "ma.L2": -0.30737
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1977,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.58908,
+          "ma.L2": -0.29704
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1978,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.55542,
+          "ma.L2": -0.28046
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1979,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.57706,
+          "ma.L2": -0.29828
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1980,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.55818,
+          "ma.L2": -0.29313
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1981,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.57363,
+          "ma.L2": -0.30368
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1982,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.53542,
+          "ma.L2": -0.27554
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1983,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.54847,
+          "ma.L2": -0.28715
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1984,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.53238,
+          "ma.L2": -0.29285
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1986,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.55327,
+          "ma.L2": -0.32643
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1987,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.53699,
+          "ma.L2": -0.32496
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1989,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.54325,
+          "ma.L2": -0.33168
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1990,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.55534,
+          "ma.L2": -0.32634
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1991,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.55329,
+          "ma.L2": -0.33717
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1993,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.53299,
+          "ma.L2": -0.33135
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1994,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.52333,
+          "ma.L2": -0.31243
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 1997,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.50448,
+          "ma.L2": -0.30179
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 2000,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.50018,
+          "ma.L2": -0.30007
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 2003,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.49571,
+          "ma.L2": -0.31396
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_n34",
+        "cultivo": "enso",
+        "campania": 2007,
+        "orden": "(2, 0, 2)",
+        "conv_warning": true,
+        "cerca_borde_MA": false,
+        "ma_params": {
+          "ma.L1": -0.46609,
+          "ma.L2": -0.29664
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 1995,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99757
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 1996,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99561
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 1997,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99671
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 1998,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99496
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 1999,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99729
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2000,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99735
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2001,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99488
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2002,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99598
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2003,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99654
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2004,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9975
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2005,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99777
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2006,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99971
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2007,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99633
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2008,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99603
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2009,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99769
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2010,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99789
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2011,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99755
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2012,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99977
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2013,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99778
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2014,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99763
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2015,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99804
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2016,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99987
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2017,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9998
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2018,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9976
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2019,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9982
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2020,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99983
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2021,
+        "orden": "(0, 1, 1)",
+        "conv_warning": true,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99808
+        },
+        "mensaje": "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2022,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99985
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2023,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99777
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "soja",
+        "campania": 2024,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9998
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "maiz",
+        "campania": 1995,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99548
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "maiz",
+        "campania": 1996,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99709
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "maiz",
+        "campania": 1997,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99693
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "maiz",
+        "campania": 1998,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99715
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "maiz",
+        "campania": 1999,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99994
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "maiz",
+        "campania": 2000,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99713
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "maiz",
+        "campania": 2001,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99694
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "maiz",
+        "campania": 2002,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.997
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "maiz",
+        "campania": 2003,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.9968
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "maiz",
+        "campania": 2009,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99757
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "maiz",
+        "campania": 2010,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99992
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "maiz",
+        "campania": 2011,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99754
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "maiz",
+        "campania": 2012,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99758
+        },
+        "mensaje": ""
+      },
+      {
+        "contexto": "B3_puente_arimax",
+        "cultivo": "maiz",
+        "campania": 2013,
+        "orden": "(0, 1, 1)",
+        "conv_warning": false,
+        "cerca_borde_MA": true,
+        "ma_params": {
+          "ma.L1": -0.99822
+        },
+        "mensaje": ""
       }
     ]
   }
