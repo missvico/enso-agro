@@ -91,7 +91,7 @@ def clasificar_fase(oni: pd.Series, umbral: float = 0.5, minimo: int = 5) -> pd.
 
 
 # ---------------------------------------------------------------- clima
-def leer_clima() -> pd.DataFrame:
+def leer_clima() -> tuple[pd.DataFrame, pd.DataFrame]:
     series = []
     for f in sorted((RAW / "clima").glob("power_*.json")):
         p = json.loads(f.read_text())["properties"]["parameter"]
@@ -138,7 +138,7 @@ def leer_rendimientos() -> tuple[pd.DataFrame, pd.DataFrame]:
         pam = (
             dep[dep["provincia_id"].isin(PROV_PAMPEANAS)]
             .groupby("anio")[["superficie_sembrada_ha", "superficie_cosechada_ha", "produccion_tm"]]
-            .sum()
+            .sum(min_count=1)
             .reset_index()
         )
         pam.columns = ["campania", "sembrada_ha", "cosechada_ha", "produccion_t"]
@@ -159,7 +159,7 @@ def leer_rendimientos() -> tuple[pd.DataFrame, pd.DataFrame]:
 
 # ---------------------------------------------------------------- tabla por campaña
 def oni_por_campania(enso: pd.DataFrame) -> pd.DataFrame:
-    """ONI de cada trimestre desde MJJ del año de siembra hasta AMJ del año de cosecha.
+    """ONI de cada trimestre desde AMJ del año de siembra hasta AMJ del año de cosecha.
 
     Columnas `oni_<TRI>_<0|1>`: 0 = año de siembra, 1 = año siguiente.
     """
